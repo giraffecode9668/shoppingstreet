@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" href="bs/css/bootstrap.css">
+	<script src="bs/js/jquery.min.js"></script>
+	<script src="bs/js/bootstrap.min.js"></script>
+	<script src="bs/js/holder.js"></script>
+	<style>
+		
+		body { 
+			padding-top: 75px; 
+			background-color: #f4f4f4;
+		}
+		
+		.me{
+			color: red;
+		}
+
+		.navbar-left{
+			margin-left: 3%;
+		}
+		
+		.im-row{
+			display: none;
+			font-size: 12px;
+		}
+		
+		.row.no-gutter {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .row.no-gutter > [class*='col-'] {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .inwhite{
+        	color: white;
+        }
+
+		.msbackground{
+			width: 50px;
+			height: 50px;
+			background:url('bs/image/msbackground.png');
+			padding: 5px 5px;
+			font-family: 微软雅黑;
+			font-size: 22px;
+			color: white;
+		}
+
+		.item,.carousel-caption{
+			width: 100%;
+		}
+		.carousel-caption{
+			left: 0;
+			top: 0;
+			padding: 0;
+		}
+
+		.smallfaded{
+			color: #99b3cd;
+			font-size: 14px;
+			padding-left: 10px;
+			padding-top: 5px;
+		}
+
+		a.titlehead{
+			text-decoration: none;
+			color: #666;
+		}
+
+		.tab_head {
+		    height: 34px;
+		    line-height: 34px;
+		    text-align: center;
+		    background: #f7f7f7;
+		}
+
+		.tab_head_item{
+			float: left;
+			width: 70px;
+			cursor: pointer;
+			white-space: nowrap;
+			overflow: hidden;
+			font-size: 12px;
+			text-overflow: ellipsis;
+		}
+
+		a.tab_active{
+			text-decoration: none;
+			color: #e83632;	
+		}
+
+		.im-hpb-div{
+			margin-top: 15px;
+		}
+
+		.media-left{
+			padding-left: 15px;
+			padding-right: 20px;
+		}
+
+		.media-body{
+			padding-top: 15px;
+			padding-right: 15px;
+		}
+
+		.media-heading{
+			font-size: 10px;
+			margin-top: 8px;
+		}
+
+		.im-phb-div{
+			margin-top: 15px;
+			display: none;
+		}
+
+		.top_item_rank{
+			float:left;
+			padding-right: 15px;
+			font-family: 'impact', sans-serif;
+			font-size: 32px;
+		}
+
+		.ticket{
+			padding-top: 15px;
+			padding-left: : 15px;
+			padding-right: : 30px;
+			padding-bottom: : 15px;
+			margin-left: 15px;
+			margin-right: 15px;
+			margin-bottom: 5px;
+			height: 114px
+		}
+
+	</style>
+</head>
+ <body class="container">
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#" >购物街</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">热销商品</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">地址 <span class="caret"></span></a>
+	         <ul class="dropdown-menu" aria-labelledby="positionMenu">
+	            <li role="presentation"><a href="#">广州</a></li>
+	            <li role="presentation"><a href="#">深圳</a></li>
+	            <li role="presentation"><a href="#">上海</a></li>
+                <li role="presentation"><a href="#">杭州</a></li>
+                <li role="presentation"><a href="#">天津</a></li>
+                <li role="presentation"><a href="#">成都</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li role="presentation"><a href="#">其他城市</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li role="presentation"><a href="#">定位我的位置</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+    		<form class="navbar-form navbar-left">
+				 <div class="input-group btn-group-lg">
+				  <input type="text" class="form-control" placeholder="搜索商品">
+				        <span class="input-group-btn">
+				    <button class="btn btn-danger " type="button"><span class="glyphicon glyphicon-search"></span></button>
+				  </span>
+				</div>
+			</form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#" >登录</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">购物车 <span class="caret"></span></a>
+  	          <ul class="dropdown-menu">
+	            <li><a href="#">$788&nbsp&nbspAOC显示屏</a></li>
+	            <li><a href="#">$96&nbsp&nbsp&nbsp&nbsp良品铺子</a></li>
+	            <li><a href="#">$128&nbsp&nbsp文轩书店</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">打开我的购物车</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="row">
+		<div class="col-xs-3 col-md-2">
+			<div class="panel panel-danger">
+				  <div class="panel-heading"><h4>商品分类</h4></div>
+				   <!-- List group -->
+				  <ul class="list-group">
+				    <li class="list-group-item"><a href="">家用电器</a></li>
+				    <li class="list-group-item"><a href="">手机</a>/<a href="">数码</a>/<a href="">运营商</a></li>
+				    <li class="list-group-item"><a href="">电脑</a>/<a href="">办公</a></li>
+				    <li class="list-group-item"><a href="">家居</a>/<a href="">家具</a>/<a href="">家装</a>/<a href="">厨具</a></li>
+				    <li class="list-group-item"><a href="">男装</a>/<a href="">女装</a>/<a href="">童装</a>/<a href="">内衣</a></li>
+				    <li class="list-group-item"><a href="">美妆</a>/<a href="">个护清洁</a>/<a href="">宠物</a></li>
+				    <li class="list-group-item"><a href="">女鞋</a>/<a href="">箱包</a>/<a href="">钟表</a>/<a href="">珠宝</a></li>
+				    <li class="list-group-item"><a href="">男鞋</a>/<a href="">运动</a>/<a href="">户外</a></li>
+				    <li class="list-group-item"><a href="">房产</a>/<a href="">汽车</a>/<a href="">汽车用品</a></li>
+				    <li class="list-group-item"><a href="">母婴</a>/<a href="">玩具乐器</a></li>
+				  </ul>
+			</div>
+	
+
+		</div>
+		<div class="col-xs-7 col-md-6">
+			<div id="mycarousel" class="carousel slide" data-ride='carousel'>
+				<!-- 幻灯片图片 -->
+				<div class="carousel-inner" style="width: 900px;">
+					<div class="item active">
+						<img src="holder.js/555x450">
+					</div>
+					<div class="item">
+						<img src="holder.js/555x450">
+					</div>
+					<div class="item">
+						<img src="holder.js/555x450">
+					</div>
+				</div>
+
+				<!-- 指示灯 -->
+				<ol class="carousel-indicators">
+					<li data-target='#mycarousel' data-slide-to='0' class="active"></li>
+					<li data-target='#mycarousel' data-slide-to='1' ></li>
+					<li data-target='#mycarousel' data-slide-to='2' ></li>
+				</ol>
+
+				<!-- 左右控制 -->
+				<a href="#mycarousel" class="left carousel-control" data-slide='prev'>
+					<span class='glyphicon glyphicon-chevron-left'></span>
+				</a>
+				<a href="#mycarousel" class="right carousel-control" data-slide='next'>
+					<span class='glyphicon glyphicon-chevron-right'></span>
+				</a>
+			</div>
+		</div>
+		<div class="col-xs-2 col-md-2">
+			<div class="list-group">
+				 <a href="#" class="thumbnail ">
+				 	<img src="holder.js/150x125">
+				 </a>
+ 				 <a href="#" class="thumbnail">
+				 	<img src="holder.js/150x125" class="bj" >
+				 </a>
+				 <a href="#" class="thumbnail">
+				 	<img src="holder.js/150x125" class="bj">
+				 </a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-2">
+			<div class="panel panel-default" >
+			  <div class="panel-body" align="center">
+			  	<br>
+				<img src="holder.js/80x80" alt="头像" class="img-circle" >
+				<p style="font-size: 14px;font-family: 楷体;margin-top: 15px"><a href="#">用户名</a>-欢迎您</p>
+				<button class="btn btn-danger btn-sm">登录</button>
+				<button class="btn btn-warning btn-sm">注册</button>
+				<br><br>
+				<ul class="nav nav-tabs nav-justified" style="font-size:12px">
+					<li class="active im-idx"><a href="">公告</a></li>
+					<li class="im-idx"><a href="">规则</a></li>
+					<li class="im-idx"><a href="">安全</a></li>
+
+				</ul>
+
+				<div class="im-row">
+					<a href="">希望未来中国500个好公司有200个CEO来自阿里 </a><br>
+					<a href="">张勇：让生意更简单</a><br>
+					<a href="">上购物街购物：安全实惠</a><br>
+				</div>
+
+				<div class="im-row">
+					<a href="">新增《购物街禁售商品管理规范》 </a><br>
+					<a href="">关于《购物街规则》不当使用他人权利规则变更公示通知</a><br>
+					<a href="">新增《区域零售服务标准》公示通知</a><br>
+				</div>
+
+				<div class="im-row">
+					<a href="">卖家注意：风险通报</a><br>
+					<a href="">售假获刑又起诉</a><br>
+				</div>
+
+			  </div>
+			</div>
+		</div>
+
+	</div>
+
+	<hr>
+
+	<!-- 秒杀 -->
+	<div class="row"  align="center">
+		<div class="col-xs-12" >
+			<!-- 特惠秒杀 -->
+			<div class="col-xs-2 col-md-2" style=" border: 2px;height: 250px;width: 180px;background-color: #e83632;">
+				<h2 class="inwhite" style="padding-top: 15px;text-align: center">特惠秒杀</h2>
+				<h4 style="color:#f49b99;text-align: center;">FLASH&nbspDEALS</h4>
+				<h2 class="inwhite" style="text-align: center;"><span class="glyphicon glyphicon-flash" ></span></h2>
+				<h4 class="inwhite" >本场距离结束还剩</h4>
+				<div align="center" background="bs/image/msbackground.png">
+					<font class="msbackground" id="">00</font>
+					<font class="msbackground" id="">40</font>
+					<font class="msbackground" id="">08</font>	
+				</div>
+			</div>
+
+			<!-- 商品 -->
+			<div class="col-xs-12 col-md-8" align="center">
+				<div id="msshop" class="carousel slide">
+					<div class="carousel-inner" style="width: 700px;">
+						<!-- 第一组图片 -->
+						<div class="item active" style="height: 300px">
+							<div class="carousel-caption">
+								<a href="">
+									<img style="display: inline-block;" width="175px" height="250px" src="holder.js/170x250" >
+								</a>
+								<a href="">
+									<img style="display: inline-block;" width="175px" height="250px" src="holder.js/170x250" >
+								</a>
+								<a href="">
+									<img style="display: inline-block;" width="175px" height="250px" src="holder.js/170x250" >
+								</a>
+								<a href="">
+									<img style="display: inline-block;" width="175px" height="250px" src="holder.js/170x250" >
+								</a>
+							</div>
+						</div>
+
+						<!-- 第二组图片 -->
+						<div class="item " style="height: 300px">
+							<div class="carousel-caption" >
+								<a href="">
+									<img style="display: inline-block;" src="holder.js/170x250" >
+								</a>
+								<a href="">
+									<img style="display: inline-block;"  src="holder.js/170x250" >
+								</a>
+								<a href="">
+									<img style="display: inline-block;"  src="holder.js/170x250" >
+								</a>
+								<a href="">
+									<img style="display: inline-block;" src="holder.js/170x250" >
+								</a>
+							</div>
+						</div>
+
+					</div>
+						<!-- 轮播（Carousel）导航 -->
+						<a class="carousel-control" href="#msshop"  role="button" style="left:-55px;top: -65px" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+						    <span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control" href="#msshop" style="left: 675px;top: -65px" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						</a>
+				</div>
+			</div>
+
+		
+	
+
+			<div class="col-xs-2 col-md-2" style="left:-15px"><img src="holder.js/180x250" /></div>
+
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row ">
+		<div class="col-xs-6 col-md-4">
+			<div class="panel" style="height: 420px">
+				<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">排行榜&nbsp<span class="glyphicon glyphicon-equalizer" style="color: #e83632"></span></font><font class="smallfaded">专属你的购物指南</font></p></a>
+				
+				<div class="tab_head " >
+					<div class="tab_head_item  ">
+						<a href="" class="titlehead im-phb tab_active">手机通讯</a>
+					</div>
+					<div class="tab_head_item ">
+						<a href="" class="titlehead  im-phb">电脑配件</a>
+					</div>					
+					<div class="tab_head_item ">
+						<a href="" class="titlehead  im-phb">方便食品</a>
+					</div>					
+					<div class="tab_head_item ">
+						<a href="" class="titlehead  im-phb">牛奶乳品</a>
+					</div>					
+					<div class="tab_head_item ">
+						<a href="" class="titlehead  im-phb">插座</a>
+					</div>
+				</div>
+
+			<!-- 手机 -->
+			<div class="im-phb-div">
+				<div class="media ">
+				 <a href="#" >
+				  <div class="media-left">
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				  </div>
+				  <div class="media-body">
+				  	<span class="top_item_rank" style="color: #e74240">1</span>
+				    <h4 class="media-heading">荣耀8X 千元屏霸 91%屏占比 2000万AI双摄 6GB+64GB 魅海蓝 移动联通电信4G全面屏手机 双卡双待</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #ed713d">2</span>
+				    <h4 class="media-heading">Apple iPhone 8 (A1863) 256GB 深空灰色 移动联通电信4G手机</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #feb185">3</span>
+				    <h4 class="media-heading">Apple iPhone X (A1865) 64GB 银色 移动联通电信4G手机</h4>
+				  </div>
+				  </a>
+				</div>
+			</div>
+
+			<!-- 电脑配件 -->
+			<div class="im-phb-div">
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				   
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #e74240">1</span>
+				    <h4 class="media-heading">西部数据(WD)蓝盘 1TB SATA6Gb/s 7200转64MB 台式机械硬盘(WD10EZEX)</h4>
+				  </div>
+				   </a>
+				</div>
+
+				<div class="media">
+				 <a href="#">
+				  <div class="media-left">
+				   
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #ed713d">2</span>
+				    <h4 class="media-heading">金士顿(Kingston)DDR4 2400 4G 台式机内存</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #feb185">3</span>
+				    <h4 class="media-heading">希捷(SEAGATE)酷鱼系列 1TB 7200转64M SATA3 台式机机械硬盘(ST1000DM010)</h4>
+				  </div>
+				  </a>
+				</div>
+			</div>
+
+			
+			<!-- 方便食品 -->
+			<div class="im-phb-div">
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				   
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #e74240">1</span>
+				    <h4 class="media-heading">古龙食品 鱼罐头 下饭菜 茄汁沙丁鱼425g</h4>
+				  </div>
+			   	  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #ed713d">2</span>
+				    <h4 class="media-heading">日清 方便面 合味道 五香牛肉风味 84g杯装</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #feb185">3</span>
+				    <h4 class="media-heading">五谷道场 方便面 海带排骨面 五连包</h4>
+				  </div>
+				  </a>
+				</div>
+			</div>
+			
+			<!-- 牛奶乳品 -->
+			<div class="im-phb-div">
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #e74240">1</span>
+				    <h4 class="media-heading">君乐宝（JUNLEBAO）37°8熟酸奶炭烤酸奶 200g*12 礼盒装</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #ed713d">2</span>
+				    <h4 class="media-heading">蒙牛 纯甄 常温酸牛奶 200g*6 礼盒装</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #feb185">3</span>
+				    <h4 class="media-heading">三元 小方白纯牛奶 250ml*24礼盒装（新老包装交替）</h4>
+				  </div>
+				</div>
+				</a>
+			</div>
+
+			<!-- 插座 -->
+			<div class="im-phb-div">
+			<a href="#">
+				<div class="media">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #e74240">1</span>
+				    <h4 class="media-heading">公牛（BULL）GN-104D  插座/插线板/插排/排插/接线板/拖线板 1位总控全长1.8米大功率16A空调插座 送10A头</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #ed713d">2</span>
+				    <h4 class="media-heading">公牛（BULL）GN-B2030 新国标插座 插线板/插排/排插/接线板/拖线板 3位总控全长5米</h4>
+				  </div>
+				  </a>
+				</div>
+
+				<div class="media">
+				<a href="#">
+				  <div class="media-left">
+				    
+				      <img class="media-object" src="holder.js/80x80" alt="...">
+				    
+				  </div>
+				  <div class="media-body">
+				  <span class="top_item_rank" style="color: #feb185">3</span>
+				    <h4 class="media-heading">公牛（BULL）GN-402 新国标插座 插线板/插排/排插/接线板/拖线板 6位总控全长3米</h4>
+				  </div>
+				  </a>
+				</div>
+			</div>
+		</div>
+
+
+	
+			
+		</div>
+
+		<!-- 会买专辑 -->
+		<div class="col-xs-6 col-md-4">
+			<div class="panel" style="height: 420px">
+				<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">会买专辑&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">甄选优秀好物</font></p></a>
+			
+				<!-- 商品 -->
+				<div id="hmshop" class="carousel slide" align="center">
+					<div class="carousel-inner" style="width: 365px;">
+					<!-- 第一组图片 -->
+					<div class="item active" >
+						<a href="" ><img src="holder.js/300x120" style="margin-bottom: 10px"></a>
+						<a href="">
+						<div class="row" style="margin-left: 15px;margin-right: 15px">
+							<div class="col-xs-4">
+								<img src="holder.js/80x120">
+							</div>
+							<div class="col-xs-4">
+								<img src="holder.js/80x120">
+							</div>
+							<div class="col-xs-4">
+								<img src="holder.js/80x120">
+							</div>
+						</div>
+						
+						<p style="margin-top: 10px"><b>个护好物备齐，奶爸逆袭清爽帅气</b></p>
+						<p style="padding-left:15px;padding-right:15px;">一旦有了孩子，奶爸们肯定是忙得不可开交，生活中也是怎么简单怎么来，以致于后来身材颜值陷入水深</p>
+						</a>
+					</div>
+
+					<!-- 第二组图片 -->
+					<div class="item " >
+						<a href="" ><img src="holder.js/300x120" style="margin-bottom: 10px"></a>
+						<a href="">
+						<div class="row" style="margin-left: 15px;margin-right: 15px">
+							<div class="col-xs-4">
+								<img src="holder.js/80x120">
+							</div>
+							<div class="col-xs-4">
+								<img src="holder.js/80x120">
+							</div>
+							<div class="col-xs-4">
+								<img src="holder.js/80x120">
+							</div>
+						</div>
+						
+						<p style="margin-top: 10px"><b>交通拥挤有妙招，电动车小巧穿行无障碍</b></p>
+						<p style="padding-left:15px;padding-right:15px;">随着人们消费水平的提高，公路上的小车是越来越多了，导致每到上下班高峰期的时候，大路的车辆堵了</p>
+						</a>
+					</div>
+					</div>
+
+					<!-- 指示灯 -->
+					<ol class="carousel-indicators" style="bottom:-16px;">
+						<li data-target='#hmshop' data-slide-to='0' class="active"></li>
+						<li data-target='#hmshop' data-slide-to='1' ></li>
+					</ol>
+						
+					<!-- 轮播（Carousel）导航 -->
+					<a class="carousel-control" href="#hmshop"  role="button" style="left:-15px" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control" href="#hmshop" style="left: 324px" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+
+		<!-- 领劵中心 -->
+		<div class="col-xs-6 col-md-4">
+			<div class="panel" style="height: 420px">
+				<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">领劵中心&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">前往领劵中心</font></p></a>
+				<a href="">
+				<div class="panel ticket" style="background-color: #f6f6f6;">
+					<div  style="margin-right: 30px;margin-left: 15px;float:left;width: 270px">
+						<img src="holder.js/80x80" style="float:left" class="img-circle">
+						<span class="" style="color: #e74240;margin-left: 15px">￥</span>
+						<span class="top_item_rank" style="color: #e74240;float: none">5</span><br>
+						<span class="smallfaded" style="margin-left: 5px">满105元可用</span><br>
+						<span style="margin-left: 15px;color:#5c5b5a">全品类通用券(除特殊商品...</span>
+					</div>
+					<div style="float:left;width: 10px;height:85px;font-size: 8px;">
+						更<br>多<br>精<br>选<br>好<br>券
+					</div>
+				</div>
+				</a>
+
+				<a href="">
+				<div class="panel ticket" style="background-color: #eeefed;">
+					<div  style="margin-right: 30px;margin-left: 15px;float:left;width: 270px">
+						<img src="holder.js/80x80" style="float:left" class="img-circle">
+						<span class="" style="color: #e74240;margin-left: 15px">￥</span>
+						<span class="top_item_rank" style="color: #e74240;float: none">400</span><br>
+						<span class="smallfaded" style="margin-left: 5px">满6500元可用</span><br>
+						<span style="margin-left: 15px;color:#5c5b5a">购买指定iPhone商品</span>
+					</div>
+					<div style="float:left;width: 10px;height:85px;font-size: 8px">
+						更<br>多<br>数<br>码<br>好<br>券
+					</div>
+				</div>
+				</a>
+
+				<a href="">
+				<div class="panel ticket" style="background-color: #f6f6f6;">
+					<div  style="margin-right: 30px;margin-left: 15px;float:left;width: 270px">
+						<img src="holder.js/80x80" style="float:left" class="img-circle">
+						<span class="" style="color: #e74240;margin-left: 15px">￥</span>
+						<span class="top_item_rank" style="color: #e74240;float: none">10</span><br>
+						<span class="smallfaded" style="margin-left: 5px">满109元可用</span><br>
+						<span style="margin-left: 15px;color:#5c5b5a">水饮部分商品</span>
+					</div>
+					<div style="float:left;width: 10px;height:85px;font-size: 8px">
+						更<br>多<br>食<br>品<br>好<br>券
+					</div>
+				</div>
+				</a>
+			</ul>
+
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="row" style="padding-top: 30px">
+		<!-- 觅me -->
+		<div class="col-xs-6 col-md-4">
+			<div class="panel" style="height: 420px">
+				<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">觅me&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">探索生活</font></p></a>
+
+				<!-- 商品 -->
+				<div id="mmshop" class="carousel slide" align="center">
+					<div class="carousel-inner" style="width: 365px;">
+					<!-- 第一组图片 -->
+					<div class="item active" >
+						<a href="" ><img src="holder.js/300x250" style="margin-bottom: 10px">
+						
+						<p style="margin-top: 10px"><b>讨好“刁蛮女友”的三种方法，让你安心畅快玩游戏</b></p>
+						<p style="padding-left:15px;padding-right:15px;">对于男生来说，下班之后好不容易有点空余时间可以玩局绝地求生，却经常是被女票闹着一起看肥皂剧。</p>
+						</a>
+					</div>
+
+					<!-- 第二组图片 -->
+					<div class="item " >
+						<a href="" ><img src="holder.js/300x250" style="margin-bottom: 10px">
+						
+						<p style="margin-top: 10px"><b>显示器知识盘点，买的时候要擦亮眼睛</b></p>
+						<p style="padding-left:15px;padding-right:15px;">每当我们准备买电子数码产品的时候，大家心里都有有些担心的，一担心商家玩先涨价后减价的手段，二</p>
+						</a>
+					</div>
+
+					<!-- 第三组图片 -->
+					<div class="item " >
+						<a href="" ><img src="holder.js/300x250" style="margin-bottom: 10px">
+						
+						<p style="margin-top: 10px"><b>市面上的洗碗机有那么多，为什么我只选择美的？  </b></p>
+						<p style="padding-left:15px;padding-right:15px;">你曾遇见那么多人，可爱上的只有一个，你曾经历那么多事，可刻骨铭心的只有那么几件，好东西从来不</p>
+						</a>
+					</div>
+					</div>
+
+					<!-- 指示灯 -->
+					<ol class="carousel-indicators" style="bottom:-16px;">
+						<li data-target='#mmshop' data-slide-to='0' class="active"></li>
+						<li data-target='#mmshop' data-slide-to='1' ></li>
+						<li data-target='#mmshop' data-slide-to='2' ></li>
+					</ol>
+						
+					<!-- 轮播（Carousel）导航 -->
+					<a class="carousel-control" href="#mmshop"  role="button" style="left:-15px;top: -25px" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control" href="#mmshop" style="left: 324px;top: -25px" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- 发现好货 -->
+		<div class="col-xs-6 col-md-4">
+			<div class="panel" style="height: 420px">
+				<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">发现好货&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">发现品质好货</font></p></a>
+				<div style="margin:15px 15px">
+					<div class="row">
+						<div class="col-xs-6">
+							<a href="">
+								<img src="holder.js/140x120">
+								<font style="padding-left: 15px;font-size: 14px;font-family: '华软雅黑' ;color: #3e8c96">华为全面屏拍照手机</font>
+								<p style="font-size: 12px">华为Nova3e,可谓手机圈...</p>
+							</a>
+						</div>
+						<div class="col-xs-6">
+							<a href="">
+								<img src="holder.js/140x120">
+								<font style="padding-left: 15px;font-size: 14px;font-family: '华软雅黑' ;color: #3e8c96">华为全面屏拍照手机</font>
+								<p style="font-size: 12px">华为Nova3e,可谓手机圈...</p>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<a href="">
+								<img src="holder.js/140x120">
+								<font style="padding-left: 15px;font-size: 14px;font-family: '华软雅黑' ;color:#3e8c96">华为全面屏拍照手机</font>
+								<p style="font-size: 12px">华为Nova3e,可谓手机圈...</p>
+							</a>
+						</div>
+						<div class="col-xs-6">
+							<a href="">
+								<img src="holder.js/140x120">
+								<font style="padding-left: 15px;font-size: 14px;font-family: '华软雅黑' ;color: #3e8c96">华为全面屏拍照手机</font>
+								<p style="font-size: 12px">华为Nova3e,可谓手机圈...</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 会逛 -->
+		<div class="col-xs-6 col-md-4" >
+			<div class="panel" style="height: 420px">
+				<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">会逛&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">你想逛的都在这里</font></p></a>
+				<div align="center">
+					<div style="margin:25px 20px 10px 20px;">
+						<a href="">
+						<img src="holder.js/315x200">	
+						</a>
+					</div>
+					<div >
+						<a href=""><img src="holder.js/100x120"></a>
+						<a href=""><img src="holder.js/100x120"></a>
+						<a href=""><img src="holder.js/100x120"></a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<hr>
+	<!-- 职能先锋 -->
+		<div align="center">
+			<span style="font-size: 28px;">——&nbsp智能先锋&nbsp——</span>
+		</div>
+		<div class="row"><br><br>
+		<!-- 手机频道 -->
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">手机频道&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">一个极客的诞生</font></p></a>
+					<div class="row" style="margin: 15px">
+						<div class="col-xs-6"><a href=""><img src="holder.js/134x150"></div></a>
+						<div class="col-xs-6"><a href=""><img src="holder.js/134x150"></div></a>
+					</div>
+					<div class="row" >
+						<div class="col-xs-12" >
+						<div align="center">
+							<table border="1">
+							<tr>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							</tr>
+							<tr>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							<td><a href=""><img src="holder.js/75x75"></a></td>
+							</tr>
+							</table>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		<!-- 新品首发 -->
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">新品首发&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">李副官，去查清楚</font></p></a>
+				
+					<div align="center">
+						<a href=""><img src="holder.js/350x350"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4" style="height:400px">
+				<a href=""><img src="holder.js/350x400" style="z-index: 2;position: relative"></a>
+				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -370px">
+				</div>
+			</div>
+		</div>
+		<div class="row"><br><br>
+			<div class="col-xs-4" style="height:400px">
+				<a href=""><img src="holder.js/350x200" style="z-index: 2;position: relative;left:15px"></a>
+				<a href=""><img src="holder.js/350x200" style="z-index: 2;position: relative;margin-top: 15px;left:15px"></a>
+				<div class="" style="height:420px;border: solid 4px #000000;position: relative;z-index: 1;left:-15px;top: -390px">
+				</div>
+			</div>
+			
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">极客桌面&nbsp·</font><font class="smallfaded">极客桌面</font></p></a>
+					
+					<div align="center">
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					</div>
+					
+					<hr>
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 50px"><font style="font-size: 24px;">初出茅庐&nbsp·</font><font class="smallfaded">好电脑不贵</font></p></a>
+					
+					<div align="center">
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">电脑办公&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">职能潮货&nbsp嗨购不停</font></p></a>			
+
+					<div align="center">
+						<a href=""><img src="holder.js/325x150" style="margin-top: 15px"></a>
+						<a href=""><img src="holder.js/325x150" style="margin-top: 15px"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<hr>
+		<!-- 时尚达人 -->
+		<div align="center">
+			<span style="font-size: 28px;">——&nbsp时尚达人&nbsp——</span>
+		</div>
+		<div class="row"><br><br>
+			<div class="col-xs-4">
+				<!-- 运动户外 -->
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">运动户外&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">玩所未玩</font></p></a>		
+
+					<div align="center" style="margin-top: 25px">
+						<a href=""><img src="holder.js/325x150"></a>
+						<div style="padding: 15px">
+						<a href=""><img src="holder.js/150x150" style="margin-right: 15px;"></a>
+						<a href=""><img src="holder.js/150x150" style=""></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+				<!-- 魅力装扮 -->
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">魅力装扮&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">精致生活</font></p></a>		
+
+					<div align="center" style="margin-top: 25px">
+						<a href=""><img src="holder.js/325x150"></a>
+						<div style="padding: 15px">
+						<a href=""><img src="holder.js/150x150" style="margin-right: 15px;"></a>
+						<a href=""><img src="holder.js/150x150" style=""></a>
+						</div>
+						
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4" style="height:400px">
+				<a href=""><img src="holder.js/350x400" style="z-index: 2;position: relative"></a>
+				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -370px">
+				</div>
+			</div>
+		</div>
+		<div class="row"><br><br>
+			<div class="col-xs-4" style="height:400px">
+				<a href=""><img src="holder.js/350x400" style="z-index: 2;position: relative;left:15px"></a>
+				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:-15px;top: -370px">
+				</div>
+			</div>
+			
+			<div class="col-xs-4">
+				<!-- 极简风尚 -->
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">极简风尚&nbsp·</font><font class="smallfaded">时尚不费力</font></p></a>
+					
+					<div align="center">
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					</div>
+					
+					<hr>
+					<!-- 奢华香氛 -->
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 50px"><font style="font-size: 24px;">奢华香氛&nbsp·</font><font class="smallfaded">初闻定情</font></p></a>
+					
+					<div align="center">
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4">
+				<!-- 知我药妆 -->
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">知我药妆&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">知我药妆美妆旗舰店</font></p></a>
+				<div align="center">
+					<div style="margin:25px 20px 10px 20px;">
+						<a href="">
+						<img src="holder.js/315x200">	
+						</a>
+					</div>
+					<div >
+						<a href=""><img src="holder.js/100x120"></a>
+						<a href=""><img src="holder.js/100x120"></a>
+						<a href=""><img src="holder.js/100x120"></a>
+					</div>
+					
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="row"><br><br>
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<!-- 引领时尚 -->
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">引领时尚&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">尽享时尚生活</font></p></a>
+					<div align="center">
+						<div style="margin:25px 20px 10px 20px;">
+							<a href="">
+							<img src="holder.js/315x200">	
+							</a>
+						</div>
+						<div >
+							<a href=""><img src="holder.js/100x120"></a>
+							<a href=""><img src="holder.js/100x120"></a>
+							<a href=""><img src="holder.js/100x120"></a>
+						</div>
+					
+				</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+				<!-- 我型我塑 -->
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">我型我塑&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">时尚有我&nbsp品质衣橱</font></p></a>		
+
+					<div align="center" style="margin-top: 25px">
+						<a href=""><img src="holder.js/325x150"></a>
+						<div style="padding: 15px">
+						<a href=""><img src="holder.js/150x150" style="margin-right: 15px;"></a>
+						<a href=""><img src="holder.js/150x150" style=""></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4" style="height:400px">
+				<a href=""><img src="holder.js/350x200" style="z-index: 2;position: relative"></a>
+				<a href=""><img src="holder.js/350x200" style="z-index: 2;position: relative;margin-top: 15px"></a>
+				<div class="" style="height:420px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -400px">
+				</div>
+			</div>
+		</div>
+
+		<hr>
+		<div align="center">
+			<span style="font-size: 28px;">——&nbsp生活百货&nbsp——</span>
+		</div>
+		<div class="row"><br><br>
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<!-- 购物超市 -->
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">购物超市&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">精选超值好物</font></p></a>		
+
+					<div align="center" style="margin-top: 25px">
+						<a href=""><img src="holder.js/325x150"></a>
+						<div style="padding: 15px">
+						<a href=""><img src="holder.js/150x150" style="margin-right: 15px;"></a>
+						<a href=""><img src="holder.js/150x150" style=""></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<!-- 远安馆 -->
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">远安馆&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">中国好吃的特产</font></p></a>
+				<div align="center">
+					<div style="margin:25px 20px 10px 20px;">
+						<a href="">
+						<img src="holder.js/315x200">	
+						</a>
+					</div>
+					<div >
+						<a href=""><img src="holder.js/100x120"></a>
+						<a href=""><img src="holder.js/100x120"></a>
+						<a href=""><img src="holder.js/100x120"></a>
+					</div>
+					
+				</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4" style="height:400px">
+				<!-- 食品饮料 -->
+				<a href=""><img src="holder.js/350x400" style="z-index: 2;position: relative"></a>
+				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -370px">
+				</div>
+
+
+			</div>
+		</div>
+		<div class="row"><br><br>
+			<div class="col-xs-4" style="height:400px">
+				<a href=""><img src="holder.js/350x200" style="z-index: 2;position: relative;left:15px"></a>
+				<a href=""><img src="holder.js/350x200" style="z-index: 2;position: relative;margin-top: 15px;left:15px"></a>
+				<div class="" style="height:420px;border: solid 4px #000000;position: relative;z-index: 1;left:-15px;top: -390px">
+				</div>
+			</div>
+			
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<!-- 玩儿乐汇 -->
+				<div class="panel" style="height:420px">
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">玩儿乐汇&nbsp·</font><font class="smallfaded">儿童玩具</font></p></a>
+					
+					<div align="center">
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					</div>
+					
+					<hr>
+					<!-- 好吃零食 -->
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 50px"><font style="font-size: 24px;">好吃零食&nbsp·</font><font class="smallfaded">零食大满足</font></p></a>
+					
+					<div align="center">
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href=""><img src="holder.js/134x150"></a>
+					</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-xs-4">
+				<div class="panel" style="height:420px">
+					<!-- 图书集市 -->
+					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">图书集市&nbsp<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">有读有品</font></p></a>			
+
+					<div align="center">
+						<a href=""><img src="holder.js/325x150" style="margin-top: 15px"></a>
+						<a href=""><img src="holder.js/325x150" style="margin-top: 15px"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+		<div align="center">
+			<span style="font-size: 28px;">——&nbsp特色推荐&nbsp——</span>
+		</div>
+		<div class="row"><br><br>
+
+				<!-- 商品 -->
+				<div id="tsshop" class="carousel slide" align="center">
+					<div class="carousel-inner" style="width: 1170px;">
+					<!-- 第一组图片 -->
+					<div class="item active" >
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					</div>
+
+					<!-- 第二组图片 -->
+					<div class="item " >
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+						</div>
+						</div>
+
+					<!-- 第三组图片 -->
+					<div class="item">
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="" ><img src="holder.js/250x300" style="margin-bottom: 10px"></a>
+					</div>
+					</div>
+					<!-- 指示灯 -->
+					<ol class="carousel-indicators" style="bottom:-16px;">
+						<li data-target='#tsshop' data-slide-to='0' class="active"></li>
+						<li data-target='#tsshop' data-slide-to='1' ></li>
+						<li data-target='#tsshop' data-slide-to='2' ></li>
+					</ol>
+						
+					<!-- 轮播（Carousel）导航 -->
+					<a class="carousel-control" href="#tsshop"  role="button" style="left:-80px;top: -25px" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control" href="#tsshop" style="left: 1075px;top: -25px" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					</a>
+				</div>
+		</div><br><br>
+
+	<hr><br><br>
+	<div class="container" style="" align="center">
+		<div class="row">
+			<img src="bs/image/street.jpeg" style="margin-top:-30px">
+		</div><br>
+		<div  style="width: 700px">
+			<div class="row">
+				<div class="col-xs-2"><a href="">关于我们</a></div>
+				<div class="col-xs-2"><a href="">联系我们</a></div>
+				<div class="col-xs-2"><a href="">联系客服</a></div>
+				<div class="col-xs-2"><a href="">合作招商</a></div>
+				<div class="col-xs-2"><a href="">商家帮助</a></div>
+				<div class="col-xs-2"><a href="">营销中心</a></div>
+			</div>
+		</div>
+		<div style="width: 1000px"></div>
+			<br>
+			京公网安备 110000020006666号&nbsp|&nbsp京ICP证076666号&nbsp|&nbsp
+			&nbsp互联网出版许可证编号新出网证(京)字150号&nbsp|&nbsp
+			&nbsp出版物经营许可证
+			<br>
+			赞助商：华南农业大学 &nbsp 公司所有：17信管1班426寝室
+			<br>
+			<br>
+		</div>
+	</div><br><br>
+
+  </body>
+
+<!-- 公告 -->
+  <script>
+  $('.im-idx').mouseenter(function(){
+  	$(this).addClass('active');
+  	$('.im-idx').not($(this)).removeClass('active');
+
+  	idx=$(this).index('.im-idx');
+  	$('.im-row').eq(idx).show(100);
+  	$('.im-row').not($('.im-row').eq(idx)).hide();
+  });
+
+  $('.im-row').eq(0).show(100);
+  </script>
+
+<!-- 秒杀脚本 -->
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $('#msshop').carousel()
+   	})
+	</script>
+
+<!-- 排行榜 -->
+  <script>
+  $('.im-phb').mouseenter(function(){
+  	$(this).addClass('tab_active');
+  	$('.im-phb').not($(this)).removeClass('tab_active');
+
+  	phb=$(this).index('.im-phb');
+
+  	$('.im-phb-div').eq(phb).show(100);
+  	$('.im-phb-div').not($('.im-phb-div').eq(phb)).hide();
+  });
+
+  $('.im-phb-div').eq(0).show();
+  </script>
+
+<!-- 会买脚本 -->
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $('#hmshop').carousel()
+   	})
+	</script>
+
+	<!-- 会买脚本 -->
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $('#mmshop').carousel()
+   	})
+	</script>
+
+	<!-- 特色脚本 -->
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $('#tsshop').carousel()
+   	})
+	</script>
+
+
+</html>
