@@ -8,21 +8,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <meta charset="utf-8">
 <base href="<%=basePath%>">
-	<link href="../css/base.css" rel="stylesheet" type="text/css">
-	<link href="../css/pagename.css" rel="stylesheet" type="text/css">
-	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="../css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-	<link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-	<link href="../css/search.css" rel="stylesheet" type="text/css">
-	<script type="../text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="../text/javascript" src="js/bootstrap.min0.js"></script>
-	<script type="../text/javascript" src="js/bootstrap0.js"></script>
-	<script type="../text/javascript" src="js/holder.js"></script>
-	<script type="../text/javascript" src="js/jquery.min.js"></script>
-	<script type="../text/javascript" src="js/npm.js"></script>
-	<script type="../text/javascript" src="js/jquery-1.6.2.min.js"></script>
-	<script type="../text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/pagename.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="css/search.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min0.js"></script>
+	<script type="text/javascript" src="js/bootstrap0.js"></script>
+	<script type="text/javascript" src="js/holder.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/npm.js"></script>
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	
@@ -246,7 +246,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="container-fluid" style="background-color: #FFFFFF">
 					<div class="col-md-1 navbar-left">
-						<img src="../image/衣服.jpg" alt="" style="heght:70px;width:70px">
+						<img src="picture/clothe.jpg" alt="" style="heght:70px;width:70px">
 					</div>
 						<div class="col-md-2">
 						<FONT FACE="微软雅黑" size=2>尊首2017春夏韩版休闲短袖T恤男士半袖T恤学生修身圆领打底衫潮男</FONT>

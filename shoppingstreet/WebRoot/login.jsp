@@ -9,16 +9,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <meta charset="UTF-8">
     <base href="<%=basePath%>">
     <title>Login</title>
-    <link type="text/css" rel="stylesheet" href="../css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="../css/loginStyle.css">
-    <script src="../js/login.js"></script>
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/holder.js"></script>
-    <script type="text/javascript" src="../atest/jquery-1.6.4.js"></script>
-    <script type="text/javascript" src="../atest/2.js"></script>
-    <script type="text/javascript" src="../atest/jdSlide.1.0.min.js"></script>
-    <script type="text/javascript" src="../atest/common_login_v20180829.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/loginStyle.css">
+    <script src="js/login.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script type="text/javascript" src="atest/jquery-1.6.4.js"></script>
+    <script type="text/javascript" src="atest/2.js"></script>
+    <script type="text/javascript" src="atest/jdSlide.1.0.min.js"></script>
+    <script type="text/javascript" src="atest/common_login_v20180829.js"></script>
     <!--<style type="text/css">
         body {
 
@@ -197,7 +197,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <div class="mc">
                         <div class="qrcode-main">
                             <div class="qrcode-img" align = "center">
-                                <img src="../image/ercode.png" alt="">
+                                <img src="image/ercode.png" alt="">
                             </div>
                         </div>
                         <div class="qrcode-panel">
@@ -246,7 +246,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="login-banner" clstag="pageclick|keycount|20150112ABD|46">
             <div class="w">
                 <div .. class="i-inner" clstag="pageclick|keycount|20150112ABD|46" id="banner-bg"
-                     style="background: #53a9f4 url(../image/fa83fc144f93b9f2.jpg) no-repeat 0 0;">
+                     style="background: #53a9f4 url(image/fa83fc144f93b9f2.jpg) no-repeat 0 0;">
                 </div>
             </div>
         </div>

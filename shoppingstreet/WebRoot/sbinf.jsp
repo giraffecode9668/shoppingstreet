@@ -9,20 +9,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<base href="<%=basePath%>">
     <meta charset="utf-8">
     <title>personal information</title>
-    <script src="../js/popper.min.js"
+    <script src="js/popper.min.js"
             integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.min.js"
+    <script src="js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-    <script src="../js/jquery-3.3.1.slim.min.js"
+    <script src="js/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
 </head>
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/holder.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/holder.js"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.1.3.css">
 <body>
 <div class="container">
-    <div class="jumbotron" style="background-image: url(../picture/店铺.jpg)">
+    <div class="jumbotron" style="background-image: url(picture/店铺.jpg)">
         <h1>个人信息</h1>
         <p></p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">了解更多</a></p>
@@ -68,7 +68,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="row">
     <div class="col-md-4">
 
-        <center><img alt="140x140" src="../picture/卡车.jpg">
+        <center><img alt="140x140" src="picture/car1.jpg">
             <div class="caption">
                 <br>
                 <p><a href="#" class="btn btn-primary" role="button">待发货</a></p>
@@ -79,7 +79,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="col-md-4">
 
 
-        <center><img alt="140x140" src="../picture/手推车.jpg">
+        <center><img alt="140x140" src="picture/手推车.jpg">
             <div class="caption">
                 <br>
                 <p><a href="#" class="btn btn-primary" role="button">待收货</a></p>
@@ -89,7 +89,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
     <div class="col-md-4">
 
-        <center><img alt="140x140" src="../picture/评论.png">
+        <center><img alt="140x140" src="picture/评论.png">
             <br><br>
 
             <p><a href="#" class="btn btn-primary" role="button">评价</a></p></center>

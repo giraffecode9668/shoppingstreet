@@ -10,10 +10,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta charset="UTF-8">
 	<base href="<%=basePath%>">
 	<title>search</title>
-	<link rel="stylesheet" href="../css/bootstrap.min.css">
-	<script src="../js/jquery.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/holder.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/holder.js"></script>
 
 	<style>
 		body{
@@ -266,7 +266,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<hr>
 	<div class="container" style="" align="center">
 		<div class="row">
-			<img src="../image/street.jpeg" style="margin-top:-30px">
+			<img src="image/street.jpeg" style="margin-top:-30px">
 		</div><br>
 		<div  style="width: 700px">
 			<div class="row">
