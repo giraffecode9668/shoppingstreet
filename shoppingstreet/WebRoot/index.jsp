@@ -239,14 +239,14 @@
 			<div id="mycarousel" class="carousel slide" data-ride='carousel'>
 				<!-- 幻灯片图片 -->
 				<div class="carousel-inner" style="width: 900px;">
-					<div class="item active">
-						<img src="image/gg1.jpg">
+					<div class="item active" style="">
+						<img src="picture//gg1.jpg"  width="555px" height="470px">
 					</div>
 					<div class="item">
-						<img src="image/gg2.jpg">
+						<img src="picture//gg2.jpg">
 					</div>
 					<div class="item">
-						<img src="image/gg3.jpg">
+						<img src="picture//gg3.jpg">
 					</div>
 				</div>
 
@@ -269,13 +269,13 @@
 		<div class="col-xs-2 col-md-2">
 			<div class="list-group">
 				 <a href="#" class="thumbnail ">
-				 	<img src="image/gg4.jpg">
+				 	<img src="picture//gg4.jpg">
 				 </a>
  				 <a href="#" class="thumbnail">
-				 	<img src="image/gg5.jpg" class="bj" >
+				 	<img src="picture//gg5.jpg" class="bj" >
 				 </a>
 				 <a href="#" class="thumbnail">
-				 	<img src="image/gg6.jpg" class="bj">
+				 	<img src="picture//gg6.jpg" class="bj">
 				 </a>
 			</div>
 		</div>
@@ -283,7 +283,7 @@
 			<div class="panel panel-default" >
 			  <div class="panel-body"  style="text-align: center">
 			  	<br>
-				<img src="image/tou.jpg" height="80px" width="80px" alt="头像" class="img-circle" >
+				<img src="picture//tou.jpg" height="80px" width="80px" alt="头像" class="img-circle" >
 				<p style="font-size: 14px;font-family: 楷体;margin-top: 15px"><a href="#">用户名</a>-欢迎您</p>
 				<button class="btn btn-danger btn-sm">登录</button>
 				<button class="btn btn-warning btn-sm">注册</button>
@@ -326,13 +326,14 @@
 			<!-- 特惠秒杀 -->
 			<div class="col-xs-2 col-md-2" style=" border: 2px;height: 250px;width: 180px;background-color: #e83632;">
 				<h2 class="inwhite" style="padding-top: 15px;text-align: center">特惠秒杀</h2>
-				<h4 style="color:#f49b99;text-align: center;">FLASH&nbspDEALS</h4>
+				<h4 style="color:#f49b99;text-align: center;">FLASH&nbsp;DEALS</h4>
 				<h2 class="inwhite" style="text-align: center;"><span class="glyphicon glyphicon-flash" ></span></h2>
 				<h4 class="inwhite" >本场距离结束还剩</h4>
-				<div align="center" style="background-image: bs/image/msbackground.png">
+				<div align="center" style="background-picture/: bs/picture//msbackground.png">
 					<font class="msbackground" id="">00</font>
 					<font class="msbackground" id="">40</font>
-					<font class="msbackground" id="">08</font>	
+					<font class="msbackground" id="">08</font>
+					
 				</div>
 			</div>
 
@@ -346,7 +347,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms1.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms1.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>99</span><span class="ms_old_price"><s><i>￥</i>159</s></span>
 								</div>
@@ -355,7 +356,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms2.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms2.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>2699</span><span class="ms_old_price"><s><i>￥</i>2999</s></span>
 								</div>
@@ -364,7 +365,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms3.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms3.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>459</span><span class="ms_old_price"><s><i>￥</i>499</s></span>
 								</div>
@@ -373,7 +374,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms4.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms4.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>159</span><span class="ms_old_price"><s><i>￥</i>199</s></span>
 								</div>
@@ -387,7 +388,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms5.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms5.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>2559</span><span class="ms_old_price"><s><i>￥</i>2599</s></span>
 								</div>
@@ -396,7 +397,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms6.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms6.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>1099</span><span class="ms_old_price"><s><i>￥</i>1199</s></span>
 								</div>
@@ -405,7 +406,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms7.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms7.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>509</span><span class="ms_old_price"><s><i>￥</i>559</s></span>
 								</div>
@@ -414,7 +415,7 @@
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
-										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="image/ms8.jpg" ><br>
+										<img style="display: inline-block;margin-top: 35px;"  width="100px" height="150px" src="picture//ms8.jpg" ><br>
 									</div><br>
 									<span class="ms_new_price"><i>￥</i>1099</span><span class="ms_old_price"><s><i>￥</i>1159</s></span>
 								</div>
@@ -436,7 +437,7 @@
 			</div>
 
 			<a href="">
-			<div class="col-xs-2 col-md-2" style="left:-15px" ><img  width="170px" height="250px"  src="image/ms9.png" /></div>
+			<div class="col-xs-2 col-md-2" style="left:-15px" ><img  width="170px" height="250px"  src="picture//ms9.png" /></div>
 			</a>
 		</div>
 	</div>
@@ -471,7 +472,7 @@
 				<div class="media ">
 				 <a href="#" >
 				  <div class="media-left">
-				      <img class="media-object" width="80px" height="80px" src="image/phbsj1.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbsj1.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  	<span class="top_item_rank" style="color: #e74240">1</span>
@@ -483,7 +484,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbsj2.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbsj2.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #ed713d">2</span>
@@ -496,7 +497,7 @@
 				<a href="#">
 				  <div class="media-left">
 				    
-				      <img class="media-object"  width="80px" height="80px" src="image/phbsj3.jpg"alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbsj3.jpg"alt="...">
 				    
 				  </div>
 				  <div class="media-body">
@@ -512,7 +513,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object" width="80px" height="80px" src="image/phbdn1.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbdn1.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #e74240">1</span>
@@ -524,7 +525,7 @@
 				<div class="media">
 				 <a href="#">
 				  <div class="media-left">
-				      <img class="media-object" width="80px" height="80px" src="image/phbdn2.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbdn2.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #ed713d">2</span>
@@ -536,7 +537,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object" width="80px" height="80px" src="image/phbdn3.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbdn3.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #feb185">3</span>
@@ -553,7 +554,7 @@
 				<a href="#">
 				  <div class="media-left">
 				    
-				      <img class="media-object" width="80px" height="80px" src="image/phbfb1.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbfb1.jpg" alt="...">
 				   
 				  </div>
 				  <div class="media-body">
@@ -566,7 +567,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object" width="80px" height="80px" src="image/phbfb2.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbfb2.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #ed713d">2</span>
@@ -578,7 +579,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object" width="80px" height="80px" src="image/phbfb3.jpg" alt="...">
+				      <img class="media-object" width="80px" height="80px" src="picture//phbfb3.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #feb185">3</span>
@@ -593,7 +594,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbwj1.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbwj1.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #e74240">1</span>
@@ -605,7 +606,7 @@
 				<div class="media">
 				<a href="#">
 				 <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbwj2.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbwj2.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #ed713d">2</span>
@@ -617,7 +618,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbwj3.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbwj3.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #feb185">3</span>
@@ -632,7 +633,7 @@
 			<a href="#">
 				<div class="media">
 				  <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbzj1.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbzj1.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #e74240">1</span>
@@ -643,7 +644,7 @@
 				<div class="media">
 				<a href="#">
 				  <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbzj2.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbzj2.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #ed713d">2</span>
@@ -655,7 +656,7 @@
 				<div class="media">
 				<a href="#">
 				 <div class="media-left">
-				      <img class="media-object"  width="80px" height="80px" src="image/phbzj3.jpg" alt="...">
+				      <img class="media-object"  width="80px" height="80px" src="picture//phbzj3.jpg" alt="...">
 				  </div>
 				  <div class="media-body">
 				  <span class="top_item_rank" style="color: #feb185">3</span>
@@ -683,17 +684,17 @@
 					<div class="carousel-inner" style="width: 365px;">
 					<!-- 第一组图片 -->
 					<div class="item active" style="text-align: center" >
-						<a href="" ><img src="image/hm1-1.png" style="margin-bottom: 10px;margin-left: 32px;margin-right: 32px" width="300px" height="120px"></a>
+						<a href="" ><img src="picture//hm1-1.png" style="margin-bottom: 10px;margin-left: 32px;margin-right: 32px" width="300px" height="120px"></a>
 						<a href="">
 						<div class="row" style="margin-left: 15px;margin-right: 15px">
 							<div class="col-xs-4">
-								<img width="80px" height="120px" src="image/hm1-2.jpg">
+								<img width="80px" height="120px" src="picture//hm1-2.jpg">
 							</div>
 							<div class="col-xs-4">
-								<img width="80px" height="120px" src="image/hm1-3.jpg">
+								<img width="80px" height="120px" src="picture//hm1-3.jpg">
 							</div>
 							<div class="col-xs-4">
-								<img width="80px" height="120px" src="image/hm1-4.jpg">
+								<img width="80px" height="120px" src="picture//hm1-4.jpg">
 							</div>
 						</div>
 						
@@ -704,17 +705,17 @@
 
 					<!-- 第二组图片 -->
 					<div class="item " style="text-align: center"  >
-						<a href="" ><img src="image/hm2-1.jpg" style="margin-bottom: 10px;margin-left: 32px;margin-right: 32px" width="300px" height="120px"></a>
+						<a href="" ><img src="picture//hm2-1.jpg" style="margin-bottom: 10px;margin-left: 32px;margin-right: 32px" width="300px" height="120px"></a>
 						<a href="">
 						<div class="row" style="margin-left: 15px;margin-right: 15px">
 							<div class="col-xs-4">
-								<img width="80px" height="120px" src="image/hm2-2.jpg">
+								<img width="80px" height="120px" src="picture//hm2-2.jpg">
 							</div>
 							<div class="col-xs-4">
-								<img width="80px" height="120px" src="image/hm2-3.jpg">
+								<img width="80px" height="120px" src="picture//hm2-3.jpg">
 							</div>
 							<div class="col-xs-4">
-								<img width="80px" height="120px" src="image/hm2-4.jpg">
+								<img width="80px" height="120px" src="picture//hm2-4.jpg">
 							</div>
 						</div>
 						
@@ -751,7 +752,7 @@
 				<a href="">
 				<div class="panel ticket" style="background-color: #f6f6f6;">
 					<div  style="margin-right: 30px;margin-left: 15px;float:left;width: 270px">
-						<img src="image/lj1.png" height="80px" width="80px"  style="float:left" class="img-circle">
+						<img src="picture//lj1.png" height="80px" width="80px"  style="float:left" class="img-circle">
 						<span class="" style="color: #e74240;margin-left: 15px">￥</span>
 						<span class="top_item_rank" style="color: #e74240;float: none">5</span><br>
 						<span class="smallfaded" style="margin-left: 5px">满105元可用</span><br>
@@ -766,7 +767,7 @@
 				<a href="">
 				<div class="panel ticket" style="background-color: #eeefed;">
 					<div  style="margin-right: 30px;margin-left: 15px;float:left;width: 270px">
-						<img src="image/lj2.jpg" height="80px" width="80px"  style="float:left" class="img-circle">
+						<img src="picture//lj2.jpg" height="80px" width="80px"  style="float:left" class="img-circle">
 						<span class="" style="color: #e74240;margin-left: 15px">￥</span>
 						<span class="top_item_rank" style="color: #e74240;float: none">400</span><br>
 						<span class="smallfaded" style="margin-left: 5px">满6500元可用</span><br>
@@ -781,7 +782,7 @@
 				<a href="">
 				<div class="panel ticket" style="background-color: #f6f6f6;">
 					<div  style="margin-right: 30px;margin-left: 15px;float:left;width: 270px">
-						<img src="image/lj3.jpg" height="80px" width="80px"  style="float:left" class="img-circle">
+						<img src="picture//lj3.jpg" height="80px" width="80px"  style="float:left" class="img-circle">
 						<span class="" style="color: #e74240;margin-left: 15px">￥</span>
 						<span class="top_item_rank" style="color: #e74240;float: none">10</span><br>
 						<span class="smallfaded" style="margin-left: 5px">满109元可用</span><br>
@@ -810,7 +811,7 @@
 					<div class="carousel-inner" style="width: 365px;">
 					<!-- 第一组图片 -->
 					<div class="item active"  >
-						<a href="" ><img width="300px" height="250px" src="image/mm1.jpg" style="margin-bottom: 10px;margin-left: 30px">
+						<a href="" ><img width="300px" height="250px" src="picture//mm1.jpg" style="margin-bottom: 10px;margin-left: 30px">
 						
 						<p style="margin-top: 10px"><b>别让你的生活，毁在了“不耐烦"上</b></p>
 						<p style="padding-left:15px;padding-right:15px;">没有谁不喜欢丰子恺先生的画作。白描，简洁，却极多趣味，都是熟悉的生活事众生相。</p>
@@ -819,7 +820,7 @@
 
 					<!-- 第二组图片 -->
 					<div class="item " >
-						<a href="" ><img width="300px" height="250px" src="image/mm2.jpg" style="margin-bottom: 10px;margin-left: 30px">
+						<a href="" ><img width="300px" height="250px" src="picture//mm2.jpg" style="margin-bottom: 10px;margin-left: 30px">
 						
 						<p style="margin-top: 10px"><b>性价比超高的纸尿裤，众多妈妈的选择</b></p>
 						<p style="padding-left:15px;padding-right:15px;">家里诞生了小小新成员，各位妈妈在开心之余，也增添了一些烦恼。宝宝这么娇嫩，该如何给宝宝选购适</p>
@@ -828,7 +829,7 @@
 
 					<!-- 第三组图片 -->
 					<div class="item " >
-						<a href="" ><img width="300px" height="250px" src="image/mm3.png" style="margin-bottom: 10px;margin-left: 30px">
+						<a href="" ><img width="300px" height="250px" src="picture//mm3.png" style="margin-bottom: 10px;margin-left: 30px">
 						
 						<p style="margin-top: 10px"><b>好奇铂金纸尿裤，众多宝妈的一致选择  </b></p>
 						<p style="padding-left:15px;padding-right:15px;">最近家里有了宝宝，给宝宝添置各种生活用品让我这个新手宝妈焦头烂额。尤其是纸尿裤这种宝宝要贴身</p>
@@ -864,14 +865,14 @@
 					<div class="row">
 						<div class="col-xs-6">
 							<a href="">
-								<img src="image/fx1.jpg" width="140px" height="120px">
+								<img src="picture//fx1.jpg" width="140px" height="120px">
 								<font style="padding-left: 15px;font-size: 14px;font-family: &#39;华软雅黑&#39; color: #3e8c96">神画家用无屏投影机</font>
 								<p style="font-size: 12px">Ta搭载了隔空触控技术…</p>
 							</a>
 						</div>
 						<div class="col-xs-6">
 							<a href="">
-								<img src="image/fx2.jpg" width="140px" height="120px">
+								<img src="picture//fx2.jpg" width="140px" height="120px">
 								<font style="padding-left: 15px;font-size: 14px;font-family:&#39;华软雅黑&#39; color: #3e8c96">美达施香橙膳食纤维</font>
 								<p style="font-size: 12px">天然的洋车前子可以帮…</p>
 							</a>
@@ -880,14 +881,14 @@
 					<div class="row">
 						<div class="col-xs-6">
 							<a href="">
-								<img src="image/fx3.png" width="140px" height="120px">
+								<img src="picture//fx3.png" width="140px" height="120px">
 								<font style="padding-left: 15px;font-size: 14px;font-family:&#39;华软雅黑&#39; color:#3e8c96">耐克飞人减震运动鞋</font>
 								<p style="font-size: 12px">本款鞋不仅将元年鞋款后…</p>
 							</a>
 						</div>
 						<div class="col-xs-6">
 							<a href="">
-								<img src="image/fx4.jpg" width="140px" height="120px">
+								<img src="picture//fx4.jpg" width="140px" height="120px">
 								<font style="padding-left: 15px;font-size: 14px;font-family: &#39;华软雅黑&#39; color: #3e8c96">维斯低帮帆布鞋</font>
 								<p style="font-size: 12px">采用帆布材质构成的鞋…</p>
 							</a>
@@ -904,13 +905,13 @@
 				<div style="text-align: center">
 					<div style="margin:25px 20px 10px 20px;">
 						<a href="">
-						<img width="315px" height="200px" src="image/hg1.jpg">	
+						<img width="315px" height="200px" src="picture//hg1.jpg">	
 						</a>
 					</div>
 					<div >
-						<a href=""><img width="100px" height="120px" src="image/hg2.jpg"></a>
-						<a href=""><img width="100px" height="120px" src="image/hg4.jpg"></a>
-						<a href=""><img width="100px" height="120px" src="image/hg3.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//hg2.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//hg4.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//hg3.jpg"></a>
 					</div>
 					
 				</div>
@@ -929,24 +930,24 @@
 				<div class="panel" style="height:420px">
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">手机频道&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">一个极客的诞生</font></p></a>
 					<div class="row" style="margin: 15px">
-						<div class="col-xs-6"><a href=""><img width="134px" height="150px" src="image/sjpd1.jpg"></a></div>
-						<div class="col-xs-6"><a href=""><img width="134px" height="150px" src="image/sjpd2.jpg"></a></div>
+						<div class="col-xs-6"><a href=""><img width="134px" height="150px" src="picture//sjpd1.jpg"></a></div>
+						<div class="col-xs-6"><a href=""><img width="134px" height="150px" src="picture//sjpd2.jpg"></a></div>
 					</div>
 					<div class="row" >
 						<div class="col-xs-12" >
 						<div align="center">
 							<table border="1" style="border-color: green">
 							<tr>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd3.jpg"></a></td>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd4.jpg"></a></td>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd5.jpg"></a></td>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd6.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd3.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd4.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd5.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd6.jpg"></a></td>
 							</tr>
 							<tr>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd7.jpg"></a></td>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd8.jpg"></a></td>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd9.jpg"></a></td>
-							<td><a href=""><img width="75px" height="75px" src="image/sjpd10.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd7.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd8.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd9.jpg"></a></td>
+							<td><a href=""><img width="75px" height="75px" src="picture//sjpd10.jpg"></a></td>
 							</tr>
 							</table>
 						</div>
@@ -961,21 +962,21 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">新品首发&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">李副官，去查清楚</font></p></a>
 				
 					<div style="text-align: center">
-						<a href=""><img width="350px" height="350px" src="image/xpsf1.png"></a>
+						<a href=""><img width="350px" height="350px" src="picture//xpsf1.png"></a>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-xs-4" style="height:400px">
-				<a href=""><img src="image/znxf1.jpg" width="350px" height="400px" style="z-index: 2;position: relative"></a>
+				<a href=""><img src="picture//znxf1.jpg" width="350px" height="400px" style="z-index: 2;position: relative"></a>
 				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -370px">
 				</div>
 			</div>
 		</div>
 		<div class="row"><br><br>
 			<div class="col-xs-4" style="height:400px">
-				<a href=""><img src="image/znxf2.jpg" width="350px" height="200px" style="z-index: 2;position: relative;left:15px"></a>
-				<a href=""><img src="image/znxf3.jpg" width="350px" height="200px" style="z-index: 2;position: relative;margin-top: 15px;left:15px"></a>
+				<a href=""><img src="picture//znxf2.jpg" width="350px" height="200px" style="z-index: 2;position: relative;left:15px"></a>
+				<a href=""><img src="picture//znxf3.jpg" width="350px" height="200px" style="z-index: 2;position: relative;margin-top: 15px;left:15px"></a>
 				<div class="" style="height:420px;border: solid 4px #000000;position: relative;z-index: 1;left:-15px;top: -390px">
 				</div>
 			</div>
@@ -986,10 +987,10 @@
 					
 					<div style="text-align: center">
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/jk1.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//jk1.jpg"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/jk2.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//jk2.jpg"></a>
 					</div>
 					</div>
 					
@@ -998,10 +999,10 @@
 					
 					<div style="text-align: center">
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/yy1.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//yy1.jpg"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/yy2.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//yy2.jpg"></a>
 					</div>
 					</div>
 				</div>
@@ -1012,8 +1013,8 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">电脑办公&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">职能潮货&nbsp;嗨购不停</font></p></a>			
 
 					<div style="text-align: center">
-						<a href=""><img width="325px" height="150px" src="image/dnbg1.jpg" style="margin-top: 15px"></a>
-						<a href=""><img width="325px" height="150px" src="image/dnbg2.jpg" style="margin-top: 15px"></a>
+						<a href=""><img width="325px" height="150px" src="picture//dnbg1.jpg" style="margin-top: 15px"></a>
+						<a href=""><img width="325px" height="150px" src="picture//dnbg2.jpg" style="margin-top: 15px"></a>
 					</div>
 				</div>
 			</div>
@@ -1031,10 +1032,10 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">运动户外&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">玩所未玩</font></p></a>		
 
 					<div style="text-align: center" style="margin-top: 25px">
-						<a href=""><img width="325px" height="150px" src="image/ydhw1.jpg"></a>
+						<a href=""><img width="325px" height="150px" src="picture//ydhw1.jpg"></a>
 						<div style="padding: 15px">
-						<a href=""><img width="150px" height="150px" src="image/ydhw2.jpg" style="margin-right: 15px;"></a>
-						<a href=""><img width="150px" height="150px" src="image/ydhw3.jpg" style=""></a>
+						<a href=""><img width="150px" height="150px" src="picture//ydhw2.jpg" style="margin-right: 15px;"></a>
+						<a href=""><img width="150px" height="150px" src="picture//ydhw3.jpg" style=""></a>
 						</div>
 						
 					</div>
@@ -1048,10 +1049,10 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">魅力装扮&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">精致生活</font></p></a>		
 
 					<div style="text-align: center" style="margin-top: 25px">
-						<a href=""><img width="325px" height="150px" src="image/mlzb1.jpg"></a>
+						<a href=""><img width="325px" height="150px" src="picture//mlzb1.jpg"></a>
 						<div style="padding: 15px">
-						<a href=""><img width="150px" height="150px" src="image/mlzb2.jpg" style="margin-right: 15px;"></a>
-						<a href=""><img width="150px" height="150px" src="image/mlzb3.jpg" style=""></a>
+						<a href=""><img width="150px" height="150px" src="picture//mlzb2.jpg" style="margin-right: 15px;"></a>
+						<a href=""><img width="150px" height="150px" src="picture//mlzb3.jpg" style=""></a>
 						</div>
 						
 					</div>
@@ -1060,14 +1061,14 @@
 			</div>
 
 			<div class="col-xs-4" style="height:400px">
-				<a href=""><img width="350px" height="400px" src="image/ss1.jpg" style="z-index: 2;position: relative"></a>
+				<a href=""><img width="350px" height="400px" src="picture//ss1.jpg" style="z-index: 2;position: relative"></a>
 				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -370px">
 				</div>
 			</div>
 		</div>
 		<div class="row"><br><br>
 			<div class="col-xs-4" style="height:400px">
-				<a href=""><img width="350px" height="400px" src="image/ss2.jpg" style="z-index: 2;position: relative;left:15px"></a>
+				<a href=""><img width="350px" height="400px" src="picture//ss2.jpg" style="z-index: 2;position: relative;left:15px"></a>
 				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:-15px;top: -370px">
 				</div>
 			</div>
@@ -1081,10 +1082,10 @@
 					
 					<div style="text-align: center">
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/sh1.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//sh1.jpg"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/sh2.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//sh2.jpg"></a>
 					</div>
 					</div>
 					
@@ -1093,10 +1094,10 @@
 					
 					<div style="text-align: center">
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px"  src="image/sw1.jpg"></a>
+						<a href=""><img width="134px" height="150px"  src="picture//sw1.jpg"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px"  src="image/sw2.jpg"></a>
+						<a href=""><img width="134px" height="150px"  src="picture//sw2.jpg"></a>
 					</div>
 					</div>
 					
@@ -1111,13 +1112,13 @@
 				<div style="text-align: center">
 					<div style="margin:25px 20px 10px 20px;">
 						<a href="">
-						<img width="315px" height="200px" src="image/zw1.jpg">	
+						<img width="315px" height="200px" src="picture//zw1.jpg">	
 						</a>
 					</div>
 					<div >
-						<a href=""><img width="100px" height="120px" src="image/zw2.jpg"></a>
-						<a href=""><img width="100px" height="120px" src="image/zw3.jpg"></a>
-						<a href=""><img width="100px" height="120px" src="image/zw4.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//zw2.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//zw3.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//zw4.jpg"></a>
 					</div>
 					
 				</div>
@@ -1132,13 +1133,13 @@
 					<div style="text-align: center">
 						<div style="margin:25px 20px 10px 20px;">
 							<a href="">
-							<img width="315px" height="200px" src="image/ylss1.jpg">	
+							<img width="315px" height="200px" src="picture//ylss1.jpg">	
 							</a>
 						</div>
 						<div >
-							<a href=""><img width="100px" height="120px" src="image/ylss2.jpg"></a>
-							<a href=""><img width="100px" height="120px" src="image/ylss3.jpg"></a>
-							<a href=""><img width="100px" height="120px" src="image/ylss4.jpg"></a>
+							<a href=""><img width="100px" height="120px" src="picture//ylss2.jpg"></a>
+							<a href=""><img width="100px" height="120px" src="picture//ylss3.jpg"></a>
+							<a href=""><img width="100px" height="120px" src="picture//ylss4.jpg"></a>
 						</div>
 					
 				</div>
@@ -1151,10 +1152,10 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">我型我塑&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">时尚有我&nbsp;品质衣橱</font></p></a>		
 
 					<div style="text-align: center" style="margin-top: 25px">
-						<a href=""><img width="325px" height="150px" src="image/wswx1.jpg"></a>
+						<a href=""><img width="325px" height="150px" src="picture//wswx1.jpg"></a>
 						<div style="padding: 16px">
-						<a href=""><img width="150px" height="150px" src="image/wswx2.jpg" style="margin-right: 15px"></a>
-						<a href=""><img width="150px" height="150px" src="image/wswx3.jpg"></a>
+						<a href=""><img width="150px" height="150px" src="picture//wswx2.jpg" style="margin-right: 15px"></a>
+						<a href=""><img width="150px" height="150px" src="picture//wswx3.jpg"></a>
 						</div>
 						
 					</div>
@@ -1162,8 +1163,8 @@
 			</div>
 
 			<div class="col-xs-4" style="height:400px">
-				<a href=""><img width="350px" height="200px" src="image/ss3.jpg" style="z-index: 2;position: relative"></a>
-				<a href=""><img width="350px" height="200px" src="image/ss4.jpg" style="z-index: 2;position: relative;margin-top: 15px"></a>
+				<a href=""><img width="350px" height="200px" src="picture//ss3.jpg" style="z-index: 2;position: relative"></a>
+				<a href=""><img width="350px" height="200px" src="picture//ss4.jpg" style="z-index: 2;position: relative;margin-top: 15px"></a>
 				<div class="" style="height:420px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -400px">
 				</div>
 			</div>
@@ -1180,10 +1181,10 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">购物超市&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">精选超值好物</font></p></a>		
 
 					<div style="text-align: center" style="margin-top: 25px">
-						<a href=""><img width="325px" height="150px" src="image/cs1.jpg"></a>
+						<a href=""><img width="325px" height="150px" src="picture//cs1.jpg"></a>
 						<div style="padding: 15px">
-						<a href=""><img width="150px" height="150px" src="image/cs2.jpg" style="margin-right: 15px;"></a>
-						<a href=""><img width="150px" height="150px" src="image/cs3.jpg" style=""></a>
+						<a href=""><img width="150px" height="150px" src="picture//cs2.jpg" style="margin-right: 15px;"></a>
+						<a href=""><img width="150px" height="150px" src="picture//cs3.jpg" style=""></a>
 						</div>
 						
 					</div>
@@ -1198,13 +1199,13 @@
 				<div style="text-align: center">
 					<div style="margin:25px 20px 10px 20px;">
 						<a href="">
-						<img width="315px" height="200px" src="image/ya1.jpg">	
+						<img width="315px" height="200px" src="picture//ya1.jpg">	
 						</a>
 					</div>
 					<div >
-						<a href=""><img width="100px" height="120px" src="image/ya2.jpg"></a>
-						<a href=""><img width="100px" height="120px" src="image/ya3.jpg"></a>
-						<a href=""><img width="100px" height="120px" src="image/ya4.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//ya2.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//ya3.jpg"></a>
+						<a href=""><img width="100px" height="120px" src="picture//ya4.jpg"></a>
 					</div>
 					
 				</div>
@@ -1214,7 +1215,7 @@
 
 			<div class="col-xs-4" style="height:400px">
 				<!-- 食品饮料 -->
-				<a href=""><img width="350px" height="400px" src="image/shbh1.jpg" style="z-index: 2;position: relative"></a>
+				<a href=""><img width="350px" height="400px" src="picture//shbh1.jpg" style="z-index: 2;position: relative"></a>
 				<div class="" style="height:400px;border: solid 4px #000000;position: relative;z-index: 1;left:20px;top: -370px">
 				</div>
 
@@ -1223,8 +1224,8 @@
 		</div>
 		<div class="row"><br><br>
 			<div class="col-xs-4" style="height:400px">
-				<a href=""><img width="350px" height="200px" src="image/shbh2.jpg" style="z-index: 2;position: relative;left:15px"></a>
-				<a href=""><img width="350px" height="200px" src="image/shbh3.jpg" style="z-index: 2;position: relative;margin-top: 15px;left:15px"></a>
+				<a href=""><img width="350px" height="200px" src="picture//shbh2.jpg" style="z-index: 2;position: relative;left:15px"></a>
+				<a href=""><img width="350px" height="200px" src="picture//shbh3.jpg" style="z-index: 2;position: relative;margin-top: 15px;left:15px"></a>
 				<div class="" style="height:420px;border: solid 4px #000000;position: relative;z-index: 1;left:-15px;top: -390px">
 				</div>
 			</div>
@@ -1237,10 +1238,10 @@
 					
 					<div style="text-align: center">
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/hcls1.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//hcls1.jpg"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/hcls2.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//hcls2.jpg"></a>
 					</div>
 					</div>
 					
@@ -1250,10 +1251,10 @@
 					
 					<div style="text-align: center">
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/bbsm1.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//bbsm1.jpg"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href=""><img width="134px" height="150px" src="image/bbsm2.jpg"></a>
+						<a href=""><img width="134px" height="150px" src="picture//bbsm2.jpg"></a>
 					</div>
 					</div>
 				</div>
@@ -1266,10 +1267,10 @@
 					<a href="" class="titlehead"><p style="padding-left: 24px;padding-top: 15px"><font style="font-size: 24px;">吃喝玩乐&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">为你挑选最好的</font></p></a>			
 
 					<div style="text-align: center" style="margin-top: 25px">
-						<a href=""><img width="325px" height="150px" src="image/chwl1.jpg"></a>
+						<a href=""><img width="325px" height="150px" src="picture//chwl1.jpg"></a>
 						<div style="padding: 15px">
-						<a href=""><img width="150px" height="150px" src="image/chwl2.jpg" style="margin-right: 15px;"></a>
-						<a href=""><img width="150px" height="150px" src="image/chwl3.jpg" style=""></a>
+						<a href=""><img width="150px" height="150px" src="picture//chwl2.jpg" style="margin-right: 15px;"></a>
+						<a href=""><img width="150px" height="150px" src="picture//chwl3.jpg" style=""></a>
 						</div>
 						
 					</div>
@@ -1292,7 +1293,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">设计师推荐&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">全球设计精选</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj1.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj1.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1300,7 +1301,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;"">陪伴宝宝&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">0元试打牌</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj2.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj2.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1308,7 +1309,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">品牌特卖&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">品牌限时特卖</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj3.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj3.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1321,7 +1322,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">环球时尚&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">环球名品，奢华精选</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj4.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj4.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1329,7 +1330,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">企业采购&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">9.9元抢户外设备</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj5.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj5.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1337,7 +1338,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">旅行计划&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">开心旅行</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj6.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj6.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1349,7 +1350,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">购物扶贫&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">买特产、帮扶贫</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj7.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj7.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1357,7 +1358,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">购物白条&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">最高12期免息</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj8.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj8.jpg"></a>
 						</div>
 						</div>
 					</div>
@@ -1365,7 +1366,7 @@
 						<div class="panel" style="height:400px;width: 300px">
 						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">司法拍卖&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">法院好货，公开拍卖</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="image/tstj9.jpg"></a>
+							<a href=""><img width="250" height="300px" src="picture//tstj9.jpg"></a>
 						</div>
 						</div>
 					</div>
