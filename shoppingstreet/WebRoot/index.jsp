@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+request.getServletPath();
 %>
 <!DOCTYPE html>
 <html>
@@ -233,8 +233,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			  	<br>
 				<img src="picture//tou.jpg" height="80px" width="80px" alt="头像" class="img-circle" >
 				<p style="font-size: 14px;font-family: 楷体;margin-top: 15px"><a href="#">用户名</a>-欢迎您</p>
-				<button class="btn btn-danger btn-sm">登录</button>
-				<button class="btn btn-warning btn-sm">注册</button>
+				<a href="login.jsp"><button class="btn btn-danger btn-sm" >登录</button></a>
+				<a href="reg.jsp"><button class="btn btn-warning btn-sm">注册</button></a>
 				<br><br>
 				<ul class="nav nav-tabs nav-justified" style="font-size:12px">
 					<li class="active im-idx"><a href="">公告</a></li>
@@ -291,7 +291,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<div class="carousel-inner" style="width: 700px;margin-left: 15px">
 						<!-- 第一组图片 -->
 						<div class="item active" style="height: 300px">
-							<div class="carousel-caption">
+							<div class="">
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;">
 									<div class="row">
@@ -332,7 +332,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  
 						<!-- 第二组图片 -->
 						<div class="item " style="height: 300px">
-							<div class="carousel-caption" >
+							<div class="" >
 								<a href="">
 								<div class="panel" style="width: 170px;height: 250px;float:left;margin-left: 5px">
 									<div class="row">
