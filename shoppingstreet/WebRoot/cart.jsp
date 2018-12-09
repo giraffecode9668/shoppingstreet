@@ -8,8 +8,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
-<base href="<%=basePath%>">
-	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<base href="<%=basePath%>">
+<!-- 	<link href="css/base.css" rel="stylesheet" type="text/css">
 	<link href="css/pagename.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -24,35 +24,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<script type="text/javascript" src="js/npm.js"></script>
 	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/holder.js"></script>
+	
+	<style type="text/css">	
+	body{
+			padding-top: 75px; 
+			background-color: #f4f4f4;
+			}
+	</style>
 </head>
 
-<body link="#000000" vlink="red">
-	<div class="row container-fluid">
-		<div class="col-md-2"></div>
-	<div class="container col-md-4" style="background-color: #FFFFFF">
-	<h1>购物街</h1>
-	</div>
-		<br>	
-		<div class="col-md-4">
-		<form class="navbar-form navbar-left" role="search">
-  		<div class="form-group">
-    	<input type="text" class="form-control" placeholder="Search">
-  		</div>
-  		<button type="submit" class="btn btn-danger" style="height: 32px;background-color: #D70003">Submit</button>
-		</form>
-			</div>
-	</div>
-	<div class="container-fluid" >
-	</div>
-	<div class="container" style="background-color: #FFFFFF;height:30px">
-	<button type="button" class="btn btn-link" style="height:30px;background-color: #D70003;width: 108px"><font face="微软雅黑" color="#000000">全部商品1</font></button>
-	<button type="button" class="btn btn-link" style="height:30px;background-color: #D70003"><font face="微软雅黑" color="#000000">购物街大药房</font></button>
-	</div>
-	<div class="container" style="height: 10px;background-color: #FFFFFF"></div>
-	<div class="row" style="height: 500px">
-		<div class="container">
-			<br>
+<body class="container">
+<jsp:include page="nav.jsp"></jsp:include>
+
 	<div class="container-fluid" style="height:35px">
 		<div class="col-md-1">
 		<input type="checkbox" aria-label="...">

@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	<style>
 		body{
-			padding-top: 15px;
+			padding-top: 75px;
 		}
 		.inred{
 			color: red;
@@ -72,7 +72,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 <body >
 	<!-- 行头 -->
-	<div class="row">
+	<jsp:include page="nav.jsp"></jsp:include>
+	<!-- <div class="row">
 		<div class="col-xs-3 col-md-2 col-xs-offset-1 col-md-offset-1"><h2 class="inred">购物街</h2></div>
 		<div class="col-xs-5 col-md-6 ">
 			<form class="">
@@ -80,7 +81,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				  <input type="text" class="form-control" placeholder="搜索商品">
 
 			        <span class="input-group-btn">
-			        	<!-- <button class="btn btn-default border='0px'"><span class="glyphicon glyphicon-camera"></span></button> -->
+			        	<button class="btn btn-default border='0px'"><span class="glyphicon glyphicon-camera"></span></button>
 			        	
 					    <button class="btn btn-danger" type="button">&nbsp&nbsp搜索&nbsp&nbsp</button>
 				  </span>
@@ -102,7 +103,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					  </ul>
 				</div>
 		</div>
-	</div><br><br>
+	</div><br><br> -->
 
 	<!-- 导航 -->
 	<div class="container" >

@@ -3,16 +3,21 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
+
 <!doctype html>
 <html>
 <head>
- <base href="<%=basePath%>">
+	<base href="<%=basePath%>">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/holder.js"></script>
 	
 	<style type="text/css">
+		body{
+			padding-top: 75px; 
+			background-color: #f4f4f4;
+		}
 		.tab-pane{
 			display:none;
 		 }
@@ -20,8 +25,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 
 <body>
-<div class="container">
 
+<div class="container">
+<jsp:include page="nav.jsp"></jsp:include>
     <div class="container">
         <div class="jumbotron" style="background-image: url(picture/10458PIC2nv_1024.jpg)">
             <h1>宜家0803</h1>
@@ -91,11 +97,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                 1
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a href="#">&nbsp 1</a></li>
-                                <li><a href="#">&nbsp 2</a></li>
-                                <li><a href="#">&nbsp 3</a></li>
-                                <li><a href="#">&nbsp 4</a></li>
-                                <li><a href="#">自定义</a></li>
+                                <li><a >&nbsp 1</a></li>
+                                <li><a>&nbsp 2</a></li>
+                                <li><a >&nbsp 3</a></li>
+                                <li><a href="">&nbsp 4</a></li>
+                                <li><a href="">自定义</a></li>
                             </ul>
                         </div>
                     </h3>

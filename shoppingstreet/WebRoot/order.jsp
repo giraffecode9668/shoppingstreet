@@ -7,104 +7,30 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
 <head>
 <meta charset="utf-8">
-<base href="<%=basePath%>">
-	<link href="css/base.css" rel="stylesheet" type="text/css">
-	<link href="css/pagename.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-	<link href="css/search.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min0.js"></script>
-	<script type="text/javascript" src="js/bootstrap0.js"></script>
-	<script type="text/javascript" src="js/holder.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/npm.js"></script>
-	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<base href="<%=basePath%>">
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/holder.js"></script>
 	
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+	
+		body { 
+			padding-top: 75px; 
+			
+		}
+		
+	</style>
 	
 
 <title>购物街</title>
 </head>
 
-<body bgcolor=#DCD2D2>
-<!--	<div class="container-fluid header" style="background-color: #EC1014">-->
-<!--
-		<div class="row"></div>
-		<div class="col-md-2" style="background-color: #EC1014"><h1>购物街</h1></div>
-		<div class="col-md-10">
--->
-		<nav class="navbar navbar-default" style="background-color: #EC1014">
-  <div class="container-fluid" style="background-color: #EC1014">
-	<div class="row"></div>
-	  <div class="col-md-1"></div>
-		<div class="col-md-2" style="background-color: #EC1014"><h1>购物街</h1></div>
-		<div class="col-md-7">
-			<br>
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-<!--
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
--->
-
-      <a class="navbar-brand" href="#"><font color="#F8F2F2">首页</font></a>
-		&nbsp;
-		<a class="navbar-brand" href="#"><font color="#F8F2F2">消息</font></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="#F8F2F2" size=3>社区 </font><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="">个人主页</a></li>
-            <li><a href="">我的活动</a></li>
-            <li><a href="">我的圈子</a></li>
-            <li><a href="">我的贴子</a></li>
-          </ul>
-        </li><li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="#F8F2F2" size=3>设置 </font><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">个人信息</a></li>
-            <li><a href="#">账户安全</a></li>
-            <li><a href="#">我的尺码</a></li>
-            <li><a href="#">账号绑定</a></li>
-            <li><a href="#">收货地址</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default btn-sm" style="height: 32px">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font color="#F8F2F2">我的购物车</font><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-  </div>
-		</nav>
-
+<body class="container">
+<jsp:include page="nav.jsp"></jsp:include>
 		<div class="container">
 		<div class="row" style="background-color: #FFFFFF">
 			<div class="col-md-2" style="background-color: #FFFFFF">
@@ -115,7 +41,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				关注的物品<br>
 				关注的店铺<br>
 				收藏的内容<br>
-				
 				</center>
 			</div>
 			<div class="col-md-10 header2" style="background-color: #F5EBEC">
