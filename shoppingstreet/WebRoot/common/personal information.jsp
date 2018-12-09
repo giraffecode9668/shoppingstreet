@@ -1,7 +1,12 @@
 <%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!doctype html>
 <html>
 <head>
+	<base href="<%=basePath%>">
     <meta charset="utf-8">
     <title>personal information</title>
     <script src="../js/popper.min.js"

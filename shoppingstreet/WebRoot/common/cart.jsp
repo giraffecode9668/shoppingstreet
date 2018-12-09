@@ -1,10 +1,14 @@
 <%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8"%>
-
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
+<base href="<%=basePath%>">
 	<link href="../css/base.css" rel="stylesheet" type="text/css">
 	<link href="../css/pagename.css" rel="stylesheet" type="text/css">
 	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">

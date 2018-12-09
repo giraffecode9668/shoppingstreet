@@ -1,9 +1,14 @@
 <%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
+    <base href="<%=basePath%>">
 	<title>index</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<script src="js/jquery.min.js"></script>
