@@ -45,9 +45,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</style>
 </head>
 
-<body class="">
+<body class="container">
 <jsp:include page="nav.jsp"></jsp:include>
-<div class="container">
+<div >
 
     <div class="jumbotron" style="background-image: url(picture/informationbackground.jpg)">
         <h1>个人信息</h1>
@@ -90,7 +90,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <center><img alt="140x140" src="picture/truck.jpg">
             <div class="caption">
                 <br>
-                <p><a href="#" class="btn btn-primary" role="button">待发货</a></p>
+                <p><a href="order.jsp" class="btn btn-primary" role="button">待发货</a></p>
             </div>
         </center>
     </div>
@@ -101,7 +101,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <center><img alt="140x140" src="picture/cart.jpg">
             <div class="caption">
                 <br>
-                <p><a href="#" class="btn btn-primary" role="button">待收货</a></p>
+                <p><a href="order.jsp" class="btn btn-primary" role="button">待收货</a></p>
             </div>
         </center>
     </div>
@@ -111,7 +111,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <center><img alt="140x140" src="picture/comment.png">
             <br><br>
 
-            <p><a href="#" class="btn btn-primary" role="button">评价</a></p></center>
+            <p><a href="order.jsp" class="btn btn-primary" role="button">评价</a></p></center>
     </div>
 </div>
 
@@ -180,6 +180,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </div>
 </div>
 </div>
-
+		<br><br><br><br>
+		<jsp:include page="btap.jsp"></jsp:include>
 </body>
 </html>

@@ -179,6 +179,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </div>
 
 </div>
+
+		<br><br><br><br>
+		<jsp:include page="btap.jsp"></jsp:include>
 </body>
 
 <!-- 公告 -->

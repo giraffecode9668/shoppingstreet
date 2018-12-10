@@ -161,7 +161,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
  <body class="container">
 <jsp:include page="nav.jsp"></jsp:include>
-	
 	<div class="row">
 		<div class="col-xs-3 col-md-2">
 			<div class="panel panel-danger">
@@ -1338,33 +1337,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</div>
 		</div><br><br>
 
-	<hr><br><br>
-	<div class="container"  style="text-align: center">
-		<div class="row">
-			<img src="image/street.jpeg" style="margin-top:-30px">
-		</div><br>
-		<div style="" >
-			<div class="row" >
-				<div class="col-xs-2"><a href="">关于我们</a></div>
-				<div class="col-xs-2"><a href="">联系我们</a></div>
-				<div class="col-xs-2"><a href="">联系客服</a></div>
-				<div class="col-xs-2"><a href="">合作招商</a></div>
-				<div class="col-xs-2"><a href="">商家帮助</a></div>
-				<div class="col-xs-2"><a href="">营销中心</a></div>
-			</div>
-		</div>
-		<div style="width: 1000px;font-size: 8px">
-			<br>
-			京公网安备 110000020006666号&nbsp;|&nbsp;京ICP证076666号&nbsp;|&nbsp;
-			&nbsp;互联网出版许可证编号新出网证(京)字150号&nbsp;|&nbsp;
-			&nbsp;出版物经营许可证
-			<br>
-			赞助商：华南农业大学 &nbsp;; 公司所有：17信管1班426寝室
-			<br>
-			<br>
-		</div>
-	</div><br><br>
-
+<jsp:include page="btap.jsp"></jsp:include>
   </body>
 
 <!-- 公告 -->

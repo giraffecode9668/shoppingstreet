@@ -68,7 +68,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<a class="btn-common btn-submit btn-disabled" href="#none" id="login-btn" tabindex="5">Register</a></div>
 
 					<div class="form-line bb-none">
-						<label>已有账号？</label><a href="//passport.joybuy.com/new/facade.html">登录</a>
+						<label>已有账号？</label><a href="login.jsp">登录</a>
 					</div>
 				</form>
 			</div>
