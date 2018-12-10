@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+request.getServletPath();
 %>
 
 <!doctype html>
@@ -97,9 +97,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                                 1
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a >&nbsp 1</a></li>
-                                <li><a>&nbsp 2</a></li>
-                                <li><a >&nbsp 3</a></li>
+                                <li><a href="">&nbsp 1</a></li>
+                                <li><a href="">&nbsp 2</a></li>
+                                <li><a href="">&nbsp 3</a></li>
                                 <li><a href="">&nbsp 4</a></li>
                                 <li><a href="">自定义</a></li>
                             </ul>
