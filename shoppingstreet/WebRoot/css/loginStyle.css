@@ -237,50 +237,6 @@ a:hover {
     height: auto !important
 }
 
-.login-form .msg-error {
-    position: relative;
-    background: #ffebeb;
-    color: #e4393c;
-    border: 1px solid #faccc6;
-    padding: 3px 10px 3px 40px;
-    line-height: 15px;
-    height: auto
-}
-
-.login-form .msg-error b {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    display: block;
-    margin-top: -8px;
-    width: 16px;
-    height: 16px;
-    overflow: hidden;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -49px no-repeat
-}
-
-.login-form .msg-warn {
-    position: relative;
-    background: #fef4e5;
-    color: #666;
-    border: 1px solid #f6c090;
-    padding: 3px 10px 3px 40px;
-    line-height: 15px;
-    height: auto
-}
-
-.login-form .msg-warn b {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    display: block;
-    margin-top: -8px;
-    width: 16px;
-    height: 17px;
-    overflow: hidden;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -24px no-repeat
-}
-
 .login-form .login-box {
     width: 306px;
     padding: 20px;
@@ -381,19 +337,6 @@ a:hover {
     text-decoration: none
 }
 
-.login-form .btn-2login, .login-form .btn-2qrcode {
-    display: block;
-    width: 60px;
-    height: 60px;
-    line-height: 99em;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/login-qricon-01.png) no-repeat;
-    transition: background-position .2s cubic-bezier(0.25, .5, .5, .9)
-}
-
 .login-form .btn-2qrcode {
     background-position: -60px 0
 }
@@ -439,146 +382,12 @@ a:hover {
     left: 72px
 }
 
-/*.login-form .qrcode-login .qrcode-img .qrcode-error02 {
-    padding: 30px 0
-}*/
-
-/*.login-form .qrcode-login .qrcode-img .qrcode-error02 .error-icon {
-    display: inline-block;
-    margin-bottom: 25px;
-    width: 50px;
-    height: 50px;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/qr-error-icon.png) no-repeat
-}*/
 
 .login-form .qrcode-login .qrcode-img img {
     width: 147px;
     height: 147px
 }
 
-/*.login-form .qrcode-login .qrcode-help {
-    position: absolute;
-    right: -18px;
-    top: -2px;
-    width: 141px;
-    height: 168px;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/phone-orange.png) no-repeat;
-    z-index: 99
-}*/
-
-/*.login-form .qrcode-login .qrcode-error {
-    display: none;
-    position: relative;
-    background: #ffebeb;
-    color: #e4393c;
-    border: 1px solid #e4393c;
-    padding: 3px 10px 3px 100px;
-    text-align: left
-}*/
-
-/*.login-form .qrcode-login .qrcode-error b {
-    position: absolute;
-    top: 50%;
-    left: 70px;
-    display: block;
-    margin-top: -8px;
-    width: 16px;
-    height: 16px;
-    overflow: hidden;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -49px no-repeat
-}*/
-
-.login-form .qrcode-login .qrcode-error-2016 {
-    display: none;
-    font-size: 14px;
-    color: #fbfbfb;
-    margin-top: 65px;
-    position: relative;
-    z-index: 1
-}
-
-/*.login-form .qrcode-login .qrcode-error-2016 .qrcode-error-mask {
-    display: block;
-    position: absolute;
-    width: 170px;
-    background: #000;
-    filter: alpha(opacity=60);
-    -moz-opacity: .6;
-    opacity: .6;
-    height: 163px;
-    left: 66px;
-    z-index: 9;
-    top: 0;
-    text-align: center;
-    line-height: 100px
-}*/
-
-/*.login-form .qrcode-login .qrcode-error-2016 .err-cont {
-    position: absolute;
-    left: 0;
-    top: 55px;
-    width: 100%;
-    z-index: 19;
-    font-weight: 700
-}
-
-.login-form .qrcode-login .qrcode-error-2016 .refresh-btn {
-    display: block;
-    background: #e4393c;
-    width: 80px;
-    height: 30px;
-    position: absolute;
-    top: 95px;
-    left: 113px;
-    line-height: 30px;
-    opacity: 1;
-    z-index: 19;
-    color: #fbfbfb;
-    text-decoration: none
-}*/
-
-.login-form .qrcode-login .qrcode-succ {
-    width: 306px;
-    margin: 106px auto 65px;
-    height: 146px
-}
-
-.login-form .qrcode-login .qrcode-succ h3 {
-    color: #333;
-    font-weight: 400;
-    line-height: 1;
-    font-family: "microsoft yahei"
-}
-
-.login-form .qrcode-login .qrcode-succ .ftx-03 {
-    padding-top: 14px
-}
-
-.login-form .qrcode-login .qrcode-succ .tip-box {
-    width: 306px
-}
-
-.login-form .qrcode-login .qrcode-succ .tip-box .item-fore {
-    text-align: center;
-    margin: 0;
-    padding-top: 30px
-}
-
-.login-form .qrcode-login .qrcode-succ .succ-icon {
-    display: block;
-    width: 71px;
-    height: 71px;
-    margin: 0 auto;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/qrcode-succ-2016.png) no-repeat
-}
-
-.login-form .qrcode-login .qrcode-succ .qrcode-back {
-    margin-top: 5px
-}
-
-.login-form .qrcode-login .qrcode-succ .qrcode-back a {
-    text-decoration: underline
-}
 
 .login-form .qrcode-login .qrcode-panel {
     width: 257px;
@@ -705,16 +514,6 @@ a:hover {
     width: 104px;
     height: 104px;
     margin: 10px auto
-}
-
-.login-form .qlogin-main .u-pic .mask {
-    position: absolute;
-    width: 104px;
-    height: 104px;
-    left: 0;
-    top: 0;
-    z-index: 2;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/upic-bg.png) no-repeat
 }
 
 .login-form .qlogin-main .u-name {
@@ -1034,35 +833,6 @@ a:hover {
     top: 39px;
     width: 266px;
     height: 100px
-}
-
-.form .updata {
-    z-index: 10;
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    width: 188px;
-    padding: 5px;
-    line-height: 108px;
-    height: 40px;
-    overflow: hidden;
-    background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/login-update.png) no-repeat
-}
-
-.form .updata .up-one {
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    width: 10px;
-    height: 10px
-}
-
-.form .updata .up-two {
-    position: absolute;
-    left: 92px;
-    top: 13px;
-    width: 72px;
-    height: 20px
 }
 
 

@@ -19,56 +19,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <script type="text/javascript" src="atest/2.js"></script>
     <script type="text/javascript" src="atest/jdSlide.1.0.min.js"></script>
     <script type="text/javascript" src="atest/common_login_v20180829.js"></script>
-    <!--<style type="text/css">
-        body {
 
-
-        }
-
-        .form {
-            width: 400px;
-            margin: 100px auto;
-        }
-
-        #register_form {
-            display: block;
-        }
-    </style>-->
 </head>
 <body>
 <jsp:include page="nav.jsp"></jsp:include>
-<!--<div class="container">-->
-    <!--<div class="form">-->
-        <!--<form class="form-horizontal" role="form" id="register_form">-->
-            <!--<div class="form-group">-->
-                <!--<label for="firstname" class="col-sm-2 control-label">账号</label>-->
-                <!--<div class="col-sm-10">-->
-                    <!--<input type="text" class="form-control" id="firstname" placeholder="请输入账号">-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="form-group">-->
-                <!--<label for="lastname" class="col-sm-2 control-label">密码</label>-->
-                <!--<div class="col-sm-10">-->
-                    <!--<input type="password" class="form-control" id="lastname" placeholder="请输入密码">-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="form-group">-->
-                <!--<div class="col-sm-offset-2 col-sm-10">-->
-                    <!--<div class="checkbox">-->
-                        <!--<label>-->
-                            <!--<input type="checkbox">记住账号-->
-                        <!--</label>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="form-group">-->
-                <!--<div class="col-sm-offset-2 col-sm-10">-->
-                    <!--<button type="submit" class="btn btn-default">登录</button>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</form>-->
-    <!--</div>-->
-<!--</div>-->
+
 <div id="content">
     <div class="login-wrap">
         <div class="w">
