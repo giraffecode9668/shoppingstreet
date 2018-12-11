@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" build-on-make="true" name="shoppingstreet:war exploded">
-    <output-path>$PROJECT_DIR$/shoppingstreet/WebRoot/WEB-INF/classes/artifacts/shoppingstreet_war_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="shoppingstreet/web/Web" />
-    </root>
-  </artifact>
-</component>
