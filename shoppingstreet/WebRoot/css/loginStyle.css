@@ -177,10 +177,8 @@ a:hover {
     font: 12px/150% Arial, Verdana, "\5b8b\4f53";
     color: #666;
     background: #fff;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top:0
+    margin: 0
+    !important
 }
 
 .login-form {
@@ -188,7 +186,9 @@ a:hover {
     z-index: 4;
     background: #fff;
     overflow: visible;
-    width: 346px
+    width: 346px;
+    margin: 0;
+    !important
 }
 
 .login-form .login-tab {
