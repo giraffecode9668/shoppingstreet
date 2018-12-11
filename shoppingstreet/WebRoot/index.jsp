@@ -1254,9 +1254,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="col-xs-4 ">
 						<div class="panel" style="height:400px;width: 300px">
-						<a href="" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">品牌特卖&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">品牌限时特卖</font></p></a>
+						<a href="sthdetails.jsp" class="titlehead"><p style="padding-left: 0px;padding-top: 15px"><font style="font-size: 24px;">品牌特卖&nbsp;<span class="glyphicon glyphicon-play-circle" style="color: #e83632"></span></font><font class="smallfaded">品牌限时特卖</font></p></a>
 						<div style="text-align: center">
-							<a href=""><img width="250" height="300px" src="picture//tstj3.jpg"></a>
+							<a href="sthdetails.jsp"><img width="250" height="300px" src="picture//tstj3.jpg"></a>
 						</div>
 						</div>
 					</div>
