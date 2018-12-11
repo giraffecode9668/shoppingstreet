@@ -164,10 +164,6 @@ a:hover {
     height: 475px
 }
 
-.login-wrap .login-form {
-    float: right;
-    top: 10px
-}
 
 .w {
     width: 990px;
@@ -176,7 +172,15 @@ a:hover {
 
 .login-wrap .login-form {
     float: right;
-    top: 10px
+    top: 10px;
+    padding: 0;
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:0
 }
 
 .login-form {
