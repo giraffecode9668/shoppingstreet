@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*" contentType="text/html" pageEncoding="UTF-8" buffer="none"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+request.getServletPath();
@@ -103,7 +103,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         <div class="coagent qr-coagent" id="qrCoagent">
                             <ul>
                                 <li><b></b><em>免输入</em></li>
-                                <li><b class="faster"></b><em>更快&nbsp;</em></li>
+                                <li><b class="faster"></b><em>更快</em></li>
                                 <li><b class="more-safe"></b><em>更安全</em></li>
                             </ul>
                         </div>
