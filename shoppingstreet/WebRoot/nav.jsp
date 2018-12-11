@@ -10,10 +10,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <title>My JSP 'nav.jsp' starting page</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
-
+<script type="text/javascript">
+  function w_load() {
+  var name = request.getServletPath();
+	System.out.println(name);
+	if(name.eq(index.jsp)){
+		$('.nav_in').eq(0).addClass('active');
+	}else{
+		$('.nav_in').removeClass('active');
+	}
+  }
+	
+  </script>
   </head>
   
-  <body>
+  <body onload="w_load()">
  	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 	  <div class="container">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -24,15 +35,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.jsp" >购物街</a>
+	      <a class="navbar-brand " href="index.jsp" >购物街</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="index.jsp">首页<span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">热销商品</a></li>
-	        <li class="dropdown">
+	        <li class="active nav_in"><a href="index.jsp">首页<span class="sr-only">(current)</span></a></li>
+	        <li class="nav_in"><a href="#">热销商品</a></li>
+	        <li class="dropdown nav_in">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">地址<span class="caret"></span></a>
 	          <ul class="dropdown-menu" aria-labelledby="positionMenu">
 	            <li role="presentation"><a href="#">广州</a></li>
@@ -74,4 +85,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	  </div><!-- /.container-fluid -->
 	</nav>
   </body>
+  
 </html>

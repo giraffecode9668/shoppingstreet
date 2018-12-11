@@ -45,11 +45,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</style>
 </head>
 
-<body class="">
+<body class="container">
 <jsp:include page="nav.jsp"></jsp:include>
-<div class="container">
+<div >
 
-    <div class="jumbotron" style="background-image: url(picture/店铺.jpg)">
+    <div class="jumbotron" style="background-image: url(picture/informationbackground.jpg)">
         <h1>个人信息</h1>
         <p></p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">了解更多</a></p>
@@ -87,10 +87,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="row">
     <div class="col-md-4">
 
-        <center><img alt="140x140" src="picture/car1.jpg">
+        <center><img alt="140x140" src="picture/truck.jpg">
             <div class="caption">
                 <br>
-                <p><a href="#" class="btn btn-primary" role="button">待发货</a></p>
+                <p><a href="order.jsp" class="btn btn-primary" role="button">待发货</a></p>
             </div>
         </center>
     </div>
@@ -98,20 +98,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="col-md-4">
 
 
-        <center><img alt="140x140" src="picture/手推车.jpg">
+        <center><img alt="140x140" src="picture/cart.jpg">
             <div class="caption">
                 <br>
-                <p><a href="#" class="btn btn-primary" role="button">待收货</a></p>
+                <p><a href="order.jsp" class="btn btn-primary" role="button">待收货</a></p>
             </div>
         </center>
     </div>
 
     <div class="col-md-4">
 
-        <center><img alt="140x140" src="picture/评论.png">
+        <center><img alt="140x140" src="picture/comment.png">
             <br><br>
 
-            <p><a href="#" class="btn btn-primary" role="button">评价</a></p></center>
+            <p><a href="order.jsp" class="btn btn-primary" role="button">评价</a></p></center>
     </div>
 </div>
 
@@ -180,6 +180,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </div>
 </div>
 </div>
-
+		<br><br><br><br>
+		<jsp:include page="btap.jsp"></jsp:include>
 </body>
 </html>

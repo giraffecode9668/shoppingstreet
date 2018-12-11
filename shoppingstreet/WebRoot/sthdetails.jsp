@@ -42,13 +42,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<!-- 幻灯片图片 -->
 				<div class="carousel-inner" style="width: 500px;">
 					<div class="item active" style="">
-						<img src="picture/煤黑.JPG"  width="555px" height="470px">
+						<img src="picture/blackshoe.JPG" width="555px" height="470px">
 					</div>
 					<div class="item">
-						<img src="picture/哈瓦那红.JPG">
+						<img src="picture/redshoe.JPG">
 					</div>
 					<div class="item">
-						<img src="picture/哈瓦那红.JPG">
+						<img src="picture/slivershoe.JPG">
 					</div>
 				</div>
 
@@ -179,6 +179,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </div>
 
 </div>
+
+		<br><br><br><br>
+		<jsp:include page="btap.jsp"></jsp:include>
 </body>
 
 <!-- 公告 -->
