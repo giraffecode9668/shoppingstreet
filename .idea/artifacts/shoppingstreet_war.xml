@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="shoppingstreet:war">
-    <output-path>$PROJECT_DIR$/shoppingstreet/WebRoot/WEB-INF/classes/artifacts/shoppingstreet_war</output-path>
-    <root id="archive" name="shoppingstreet_war.war">
-      <element id="artifact" artifact-name="shoppingstreet:war exploded" />
-    </root>
-  </artifact>
-</component>
