@@ -18,13 +18,13 @@ public class UsersDao {
 
     /**
      * 登录验证功能，传入用户名和密码，在数据库中查找，如果找到了，返回用户类型，没找到则返回N.
-     * @param act 用户名
+     * @param account 用户名
      * @param psw 密码
      */
-    public static String Login(String act, String psw){
+    public static String Login(String account, String psw){
         String result = "N";
         Connection con = Createtable.getConnection();
-        String sql = "select * from users where ID='"+act+"' and passwd='"+psw+"'";
+        String sql = "select * from users where ID='"+account+"' and passwd='"+psw+"'";
         PreparedStatement stm = null;
         ResultSet rs = null;
         try {
@@ -258,7 +258,7 @@ public class UsersDao {
      * @param rs 要转换的账户结果集
      * @return 转换好的账户列表
      */
-    private static List<Users> rsToUsers(ResultSet rs) {
+    public static List<Users> rsToUsers(ResultSet rs) {
         List<Users> usersList=new ArrayList<>();
         try {
             while (rs.next()) {
@@ -283,7 +283,7 @@ public class UsersDao {
      * 该方法用于处理SQL错误
      * @param e 处理SQL语句过程中产生的异常对象
      */
-    private static void processSqlError(Exception e) {
+    public static void processSqlError(Exception e) {
         e.printStackTrace();
     }
 

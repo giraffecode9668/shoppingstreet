@@ -69,7 +69,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</form>
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="login.jsp" >登录</a></li>
-	        <li><a href="sbinf.jsp" >weitingting</a></li>
+	        <li><a href="sbinf.jsp" >Zhangsan</a></li>
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">购物车<span class="caret"></span></a>
   	          <ul class="dropdown-menu">

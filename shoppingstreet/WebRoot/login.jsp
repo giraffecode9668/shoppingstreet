@@ -46,7 +46,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     </div>
                     <div class="mc">
                         <div class="form">
-                            <form id="formlogin" method="post" onsubmit="return false;">
+                            <form id="formlogin" method="post" action="UsersAction">
                                 <div class="item item-fore1">
                                     <label for="loginname" class="login-label name-label"></label>
                                     <input id="loginname" type="text" class="itxt" name="loginname" tabindex="1"
@@ -75,7 +75,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
                                 <div class="item item-fore5">
                                     <div class="login-btn">
-                                        <a class="btn-img">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                                        <input type="submit" class="btn-img" value="登&nbsp;&nbsp;&nbsp;&nbsp;录"/>
                                     </div>
                                 </div>
                             </form>

@@ -3,14 +3,13 @@ package util;
 import java.sql.*;
 
 
-import static javafx.application.Application.launch;
 import static util.Security.getMd5;
 
 
 public class Createtable {
 
     static String driverClass = "com.mysql.cj.jdbc.Driver";
-    static String url = "jdbc:mysql://localhost:3306/shoppingStreet";
+    static String url = "jdbc:mysql://localhost:3306/shoppingStreet?serverTimezone=GMT";
 
 
     public static Connection getConnection() {
@@ -27,11 +26,11 @@ public class Createtable {
     public static void main(String[] args) throws Exception {
         Connection con;
         Class.forName(driverClass);
-        con = DriverManager.getConnection(url);
+        con = DriverManager.getConnection(url, "root","root");
 
 
-        String createUsersTableSqlStr = "CREATE TABLE users (account VARCHAR(20) NOT NULL," +
-                " password VARCHAR(40), role VARCHAR(10), contact VARCHAR(20) )";
+        String createUsersTableSqlStr = "CREATE TABLE users (account VARCHAR(255) NOT NULL," +
+                " passwd VARCHAR(20), role VARCHAR(10), contact VARCHAR(30), name VARCHAR(255), face VARCHAR(255), status VARCHAR(255))";
 
         String createT_MSTableSqlStr = "CREATE TABLE t_ms (ID VARCHAR(20) NOT NULL, " +
                 "name VARCHAR(30), o_price VARCHAR(20), n_price VARCHAR(20), image1 VARCHAR(100), " +
@@ -41,9 +40,10 @@ public class Createtable {
         processUpdateStatement(createUsersTableSqlStr);
         processUpdateStatement(createT_MSTableSqlStr);
 
+        con.setAutoCommit(false);
+
         con.commit();// 提交事务
-        con.setAutoCommit(true);// 关闭事务
-        launch(args);
+
     }
 
     /**
