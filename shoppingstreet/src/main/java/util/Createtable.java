@@ -7,7 +7,7 @@ import static javafx.application.Application.launch;
 import static util.Security.getMd5;
 
 
-public class createtable {
+public class Createtable {
 
     static String driverClass = "com.mysql.cj.jdbc.Driver";
     static String url = "jdbc:mysql://localhost:3306/shoppingStreet";

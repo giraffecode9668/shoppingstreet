@@ -1,5 +1,5 @@
 ﻿# Host: localhost  (Version: 5.5.47)
-# Date: 2018-12-11 23:41:19
+# Date: 2018-12-12 00:30:25
 # Generator: MySQL-Front 5.3  (Build 4.234)
 
 /*!40101 SET NAMES utf8 */;
@@ -34,8 +34,14 @@ CREATE TABLE `t_ms` (
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
-  `Id` int(11) NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`Id`)
+  `ID` varchar(255) NOT NULL DEFAULT '',
+  `passwd` varchar(20) DEFAULT NULL,
+  `role` varchar(10) DEFAULT NULL,
+  `contact` varchar(30) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `face` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 #
