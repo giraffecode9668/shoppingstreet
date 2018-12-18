@@ -13,10 +13,10 @@ public class Createtable {
 
 
     public static Connection getConnection() {
-        Connection con;
+        Connection con = null;
         try {
             Class.forName(driverClass);
-            con = DriverManager.getConnection(url);
+            con = DriverManager.getConnection(url, "root","root");
         } catch (Exception e) {
             return null;
         }

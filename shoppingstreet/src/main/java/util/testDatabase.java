@@ -23,26 +23,26 @@ public class testDatabase {
     public static void main(String[] args) throws Exception {
 
         Connection con = Createtable.getConnection();
-        String sql = "INSERT INTO Users VALUES(?, ?, ?)";
-        String selectAllSqlStr="SELECT * FROM Users where Id='L124'";
+        String sql = "INSERT INTO users (ID, passwd) VALUES(?, ?)";
+        String selectAllSqlStr="SELECT * FROM users";
 
         if(con!=null){
             try {
-                PreparedStatement preparedStatement=con.prepareStatement(sql);
+                PreparedStatement preparedStatement = con.prepareStatement(sql);
                 preparedStatement.setString(1, "L110");
-                preparedStatement.setString(2, "L123");
                 String pw = util.Security.getMd5("L123");
-                preparedStatement.setString(3, pw);
+                preparedStatement.setString(2, pw);
 
                 preparedStatement.executeUpdate();
 
 
-                ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
-                List<Users> UsersList=rsToUsers(rs);
-                if(UsersList!=null && UsersList.size()!=0){
-                    String buff = UsersList.get(0).getId();
-                    System.out.println(buff);
-                }
+//                ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
+//                List<Users> UsersList=rsToUsers(rs);
+//                String buff = UsersList.get(0).getId();
+//                System.out.println(buff);
+//                if(UsersList!=null && UsersList.size()!=0){
+//                    System.out.println(buff);
+//                }
             } catch (SQLException e) {
                 processSqlError(e);
             }finally{

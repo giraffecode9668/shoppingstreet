@@ -40,7 +40,7 @@ public class UsersDao {
                 String face = rs.getString(6);
                 String status = rs.getString(7);
                 Users aUser=new Users(id, passwd, role, contact, name, face, status);
-                result = aUser.getRole();
+                result = aUser.getId();
                 return result;
             }
         } catch (SQLException e) {
@@ -64,7 +64,7 @@ public class UsersDao {
      */
     public static int Register1(Users Users){
         Connection con=Createtable.getConnection();
-        String sql = "INSERT INTO Users VALUES(?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO users VALUES(?, ?, ?, ?, ?, ?, ?)";
         if(con!=null){
             try {
                 if(findById(Users.getId())!=null){
@@ -98,7 +98,7 @@ public class UsersDao {
     public static int Register2(String account, String passwd, String role,
                                 String name, String contact, String face, String status) {
         Connection con=Createtable.getConnection();
-        String sql = "insert into Users values(?,?,?,?,?,?,?)";
+        String sql = "insert into users values(?,?,?,?,?,?,?)";
         PreparedStatement stm = null;
         int result = 0;
         if(findById(account)!=null){
@@ -132,7 +132,7 @@ public class UsersDao {
      */
     public int update(Users Users){
         Connection con=Createtable.getConnection();
-        String updateCourseSqlStr = "UPDATE Users SET role=?, contact=?, name=? ,face=? WHERE account=?";
+        String updateCourseSqlStr = "UPDATE users SET role=?, contact=?, name=? ,face=? WHERE ID=?";
         if(con!=null){
             try {
                 if(findById(Users.getId())==null) {
@@ -162,7 +162,7 @@ public class UsersDao {
      */
     public int updatepasswd(Users Users){
         Connection con=Createtable.getConnection();
-        String updateCourseSqlStr = "UPDATE Users SET passwd=? WHERE account=?";
+        String updateCourseSqlStr = "UPDATE users SET passwd=? WHERE account=?";
         if(con!=null){
             try {
                 if(findById(Users.getId())==null) {
@@ -189,7 +189,7 @@ public class UsersDao {
      */
     public int deleteAccountById(String account){
         Connection con=Createtable.getConnection();
-        String deleteUsersSqlStr = "UPDATE Users SET status = del WHERE account=?";
+        String deleteUsersSqlStr = "UPDATE users SET status = del WHERE account=?";
         if(con!=null){
             try {
                 if(findById(account)==null) return 0;
@@ -208,13 +208,40 @@ public class UsersDao {
     }
 
     /**
+     * 该方法根据账户账号从数据库中查重
+     * @param account 要查找的账户账号
+     * @return 是否重复
+     */
+    public static int isExist(String account){
+        int a = 0;
+        Connection con=Createtable.getConnection();
+        String selectAllSqlStr="SELECT * FROM users where Id='"+account+"'";
+        if(con!=null){
+            try {
+                ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
+                List<Users> UsersList=rsToUsers(rs);
+                if(UsersList!=null && UsersList.size()!=0) {
+                    a = 1;
+                    return a;
+                }
+
+            } catch (SQLException e) {
+                processSqlError(e);
+            }finally{
+                Createtable.closeConnection(con);
+            }
+        }
+        return a = -1;
+    }
+
+    /**
      * 该方法根据账户账号从数据库中精确查找账户，返回一个对象
      * @param account 要查找的账户账号
      * @return 指定账户对象
      */
     public static Users findById(String account){
         Connection con=Createtable.getConnection();
-        String selectAllSqlStr="SELECT * FROM Users where Id='"+account+"'";
+        String selectAllSqlStr="SELECT * FROM users where Id='"+account+"'";
         if(con!=null){
             try {
                 ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
@@ -236,7 +263,7 @@ public class UsersDao {
      */
     public List<Users> getListOFUsers(){
         Connection con=Createtable.getConnection();
-        String selectAllSqlStr="SELECT * FROM Users";
+        String selectAllSqlStr="SELECT * FROM users";
         if(con!=null){
             try {
                 ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);

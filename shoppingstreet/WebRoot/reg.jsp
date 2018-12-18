@@ -10,6 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <base href="<%=basePath%>">
     <title>Reg</title>
 	<link href="css/reg.css" rel="stylesheet" type="text/css" />
+	<script src="js/reg.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/holder.js"></script>
@@ -27,12 +28,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="common-form">
 				<h4 class="form-title">Register</h4>
 				<form class="form-container" id="regFrmId" action="UsersAction" method="post">
-					<input id="uid" name="eptUser.uid" type="hidden" value="d1b1ac52-ef7c-4477-a05b-f076c4710acc" />
-					<input name="ReturnUrl" type="hidden" value="https://www.joybuy.com" />
-					<input name="eid" type="hidden" value="" />
-					<input name="fp" type="hidden" value="" />
-					<input name="res" type="hidden" value="" />
-					<input id="takId" name="takId" type="hidden" value="" />
 
 					<div class="autocomplete-box">
 						<div class="form-line">
