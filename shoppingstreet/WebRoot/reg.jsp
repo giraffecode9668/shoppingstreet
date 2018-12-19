@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div class="wrap clearfix">
 			<div class="common-form">
 				<h4 class="form-title">Register</h4>
-				<form class="form-container" id="regFrmId" action="UsersAction" method="post">
+				<form class="form-container" id="regFrmId" action="reg" method="post">
 
 					<div class="autocomplete-box">
 						<div class="form-line">
@@ -70,6 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 	</div>
 </div>
+
 
 </body>
 </html>

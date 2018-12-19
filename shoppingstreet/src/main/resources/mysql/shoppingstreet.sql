@@ -35,7 +35,7 @@ CREATE TABLE `t_ms` (
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `ID` varchar(255) NOT NULL DEFAULT '',
-  `passwd` varchar(20) DEFAULT NULL,
+  `passwd` varchar(255) DEFAULT NULL,
   `role` varchar(10) DEFAULT NULL,
   `contact` varchar(30) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,

@@ -1,4 +1,8 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8" buffer="none"%>
+<%@ page language="java" import="java.util.* " pageEncoding="UTF-8" buffer="none"%>
+<%@ page import="com.mysql.cj.Session" %>
+<%@ page import="main.java.models.User" %>
+<%@ page import="javax.servlet.http.*" %>
+
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+request.getServletPath();
@@ -68,8 +72,22 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</div>
 			</form>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="login.jsp" >登录</a></li>
-	        <li><a href="sbinf.jsp" >Zhangsan</a></li>
+
+			  <%
+				  HttpSession hs=request.getSession();
+				  User u = (User)hs.getAttribute("user");
+				  System.out.println("Index :" + u);
+				  if(u==null){
+			  %>
+			  <li><a href="login.jsp">登录</a></li>
+			  <%
+				  }else{
+			  %>
+			  <li><a href="sbinf.jsp"><%=u.getId()%></a></li>
+			  <%
+				  }
+			  %>
+
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">购物车<span class="caret"></span></a>
   	          <ul class="dropdown-menu">

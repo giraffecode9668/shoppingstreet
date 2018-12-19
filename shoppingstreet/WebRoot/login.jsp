@@ -46,7 +46,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     </div>
                     <div class="mc">
                         <div class="form">
-                            <form id="formlogin" method="post" action="UsersAction">
+                            <form id="formlogin" method="post" action="login">
                                 <div class="item item-fore1">
                                     <label for="loginname" class="login-label name-label"></label>
                                     <input id="loginname" type="text" class="itxt" name="loginname" tabindex="1"
@@ -66,7 +66,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
                                 <div class="item item-fore4">
                                     <div class="safe">
-                                        <span></span>
+                                        <span>
+                                        </span>
                                         <span class="forget-pw-safe">
 											<a>忘记密码</a>
 										</span>

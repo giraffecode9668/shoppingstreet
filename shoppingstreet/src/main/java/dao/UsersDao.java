@@ -1,7 +1,7 @@
-package dao;
+package main.java.dao;
 
-import models.Users;
-import util.Createtable;
+import main.java.models.User;
+import main.java.util.Createtable;
 
 import javafx.scene.control.Alert;
 
@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static util.Security.getMd5;
+import static main.java.util.Security.getMd5;
 
 public class UsersDao {
 
@@ -30,7 +30,7 @@ public class UsersDao {
         try {
             stm = con.prepareStatement(sql);
             rs = stm.executeQuery();
-            List<Users> usersList = new ArrayList<>();
+            List<User> usersList = new ArrayList<>();
             if(rs.next()){
                 String id = rs.getString(1);
                 String passwd = rs.getString(2);
@@ -39,7 +39,7 @@ public class UsersDao {
                 String name = rs.getString(5);
                 String face = rs.getString(6);
                 String status = rs.getString(7);
-                Users aUser=new Users(id, passwd, role, contact, name, face, status);
+                User aUser=new User(id, passwd, role, contact, name, face, status);
                 result = aUser.getId();
                 return result;
             }
@@ -62,13 +62,13 @@ public class UsersDao {
      * @return 返回0代表数据库中已有该用户，取消保存。返回1代表保存成功，返回-1代表保存不成功。
      *
      */
-    public static int Register1(Users Users){
+    public static int Register1(User Users){
         Connection con=Createtable.getConnection();
         String sql = "INSERT INTO users VALUES(?, ?, ?, ?, ?, ?, ?)";
         if(con!=null){
             try {
                 if(findById(Users.getId())!=null){
-                    
+
                     return 0;
                 }
                 PreparedStatement preparedStatement=con.prepareStatement(sql);
@@ -102,7 +102,7 @@ public class UsersDao {
         PreparedStatement stm = null;
         int result = 0;
         if(findById(account)!=null){
-            
+
             return 0;
         }
         try {
@@ -130,13 +130,13 @@ public class UsersDao {
      *
      * 修改除id和passwd外的所有信息
      */
-    public int update(Users Users){
+    public int update(User Users){
         Connection con=Createtable.getConnection();
         String updateCourseSqlStr = "UPDATE users SET role=?, contact=?, name=? ,face=? WHERE ID=?";
         if(con!=null){
             try {
                 if(findById(Users.getId())==null) {
-                    
+
                     return 0;}
                 PreparedStatement preparedStatement=con.prepareStatement(updateCourseSqlStr);
                 preparedStatement.setString(1, Users.getRole());
@@ -160,13 +160,13 @@ public class UsersDao {
      *
      * 修改passwd
      */
-    public int updatepasswd(Users Users){
+    public int updatepasswd(User Users){
         Connection con=Createtable.getConnection();
         String updateCourseSqlStr = "UPDATE users SET passwd=? WHERE account=?";
         if(con!=null){
             try {
                 if(findById(Users.getId())==null) {
-                    
+
                     return 0;}
                 PreparedStatement preparedStatement=con.prepareStatement(updateCourseSqlStr);
                 String str1 = getMd5(Users.getPasswd());
@@ -219,7 +219,7 @@ public class UsersDao {
         if(con!=null){
             try {
                 ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
-                List<Users> UsersList=rsToUsers(rs);
+                List<User> UsersList=rsToUsers(rs);
                 if(UsersList!=null && UsersList.size()!=0) {
                     a = 1;
                     return a;
@@ -239,13 +239,13 @@ public class UsersDao {
      * @param account 要查找的账户账号
      * @return 指定账户对象
      */
-    public static Users findById(String account){
+    public static User findById(String account){
         Connection con=Createtable.getConnection();
         String selectAllSqlStr="SELECT * FROM users where Id='"+account+"'";
         if(con!=null){
             try {
                 ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
-                List<Users> UsersList=rsToUsers(rs);
+                List<User> UsersList=rsToUsers(rs);
                 if(UsersList!=null && UsersList.size()!=0)return UsersList.get(0);
             } catch (SQLException e) {
                 processSqlError(e);
@@ -261,13 +261,13 @@ public class UsersDao {
      * 该方法可能返回大量的用户对象，有可能造成网络拥堵或机器运行缓慢，请谨慎使用。
      * @return 返回数据库中的所有用户列表。返回null代表查询失败。
      */
-    public List<Users> getListOFUsers(){
+    public List<User> getListOFUsers(){
         Connection con=Createtable.getConnection();
         String selectAllSqlStr="SELECT * FROM users";
         if(con!=null){
             try {
                 ResultSet rs=con.createStatement().executeQuery(selectAllSqlStr);
-                List<Users> UsersList=rsToUsers(rs);
+                List<User> UsersList=rsToUsers(rs);
                 return UsersList;
             } catch (SQLException e) {
                 processSqlError(e);
@@ -277,7 +277,7 @@ public class UsersDao {
         }
         return null;
     }
-    
+
 
 
     /**
@@ -285,8 +285,8 @@ public class UsersDao {
      * @param rs 要转换的账户结果集
      * @return 转换好的账户列表
      */
-    public static List<Users> rsToUsers(ResultSet rs) {
-        List<Users> usersList=new ArrayList<>();
+    public static List<User> rsToUsers(ResultSet rs) {
+        List<User> usersList=new ArrayList<>();
         try {
             while (rs.next()) {
                 String id = rs.getString(1);
@@ -296,7 +296,7 @@ public class UsersDao {
                 String name = rs.getString(5);
                 String face = rs.getString(6);
                 String status = rs.getString(6);
-                Users aUser=new Users(id, passwd, role, contact, name, face, status);
+                User aUser=new User(id, passwd, role, contact, name, face, status);
                 usersList.add(aUser);
             }
             return usersList;

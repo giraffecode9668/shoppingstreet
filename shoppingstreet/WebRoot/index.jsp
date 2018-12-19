@@ -3,6 +3,8 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+request.getServletPath();
 %>
+<%@ page import="main.java.models.User" %>
+<%@ page import="javax.servlet.http.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -231,7 +233,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			  <div class="panel-body"  style="text-align: center">
 			  	<br>
 				<img src="picture//tou.jpg" height="80px" width="80px" alt="头像" class="img-circle" >
-				<p style="font-size: 14px;font-family: 楷体;margin-top: 15px"><a href="#">用户名</a>-欢迎您</p>
+				<p style="font-size: 14px;font-family: 楷体;margin-top: 15px"><a href="#">
+					<%
+						HttpSession hs = request.getSession();
+						User u = (User)hs.getAttribute("user");
+						if(u==null){
+                    %>
+                    用户名
+                    <%    }else{    %>
+                    <%=u.getId()%>
+					<%
+                        }
+					%>
+
+				</a>-欢迎您</p>
 				<a href="login.jsp"><button class="btn btn-danger btn-sm" >登录</button></a>
 				<a href="reg.jsp"><button class="btn btn-warning btn-sm">注册</button></a>
 				<br><br>

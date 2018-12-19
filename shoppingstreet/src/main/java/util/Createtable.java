@@ -1,9 +1,9 @@
-package util;
+package main.java.util;
 
 import java.sql.*;
 
 
-import static util.Security.getMd5;
+import static main.java.util.Security.getMd5;
 
 
 public class Createtable {
@@ -16,7 +16,7 @@ public class Createtable {
         Connection con = null;
         try {
             Class.forName(driverClass);
-            con = DriverManager.getConnection(url, "root","root");
+            con = DriverManager.getConnection(url, "root","8013");
         } catch (Exception e) {
             return null;
         }
@@ -30,7 +30,7 @@ public class Createtable {
 
 
         String createUsersTableSqlStr = "CREATE TABLE users (account VARCHAR(255) NOT NULL," +
-                " passwd VARCHAR(20), role VARCHAR(10), contact VARCHAR(30), name VARCHAR(255), face VARCHAR(255), status VARCHAR(255))";
+                " passwd VARCHAR(255), role VARCHAR(10), contact VARCHAR(30), name VARCHAR(255), face VARCHAR(255), status VARCHAR(255))";
 
         String createT_MSTableSqlStr = "CREATE TABLE t_ms (ID VARCHAR(20) NOT NULL, " +
                 "name VARCHAR(30), o_price VARCHAR(20), n_price VARCHAR(20), image1 VARCHAR(100), " +

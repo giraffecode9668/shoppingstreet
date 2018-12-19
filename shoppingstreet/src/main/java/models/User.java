@@ -1,6 +1,6 @@
-package models;
+package main.java.models;
 
-public class Users {
+public class User {
     private String id;
     private String passwd;
     private String role;
@@ -9,9 +9,9 @@ public class Users {
     private String face;
     private String status;
 
-    public Users(){}
+    public User(){}
 
-    public Users(String id, String passwd, String role, String contact, String name, String face, String status){
+    public User(String id, String passwd, String role, String contact, String name, String face, String status){
         this.id=id;
         this.passwd = passwd;
         this.role = role;
